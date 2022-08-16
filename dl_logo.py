@@ -16,9 +16,9 @@ def get_data_from_internet(url=None):
     return posts
 
 
-def get_logo(dataId=None, dataUrl=None, otherParam=None,club=True ):
+def get_logo(dataId=None, dataUrl=None, otherParam=None,club=True):
     if (club):
-        url_logo = f"{baseUrl}{dataId}/standings?season=2021&sort=asc"
+        url_logo = f"{baseUrl}{dataId}/standings?season=2022&sort=asc"
         jsonFile = get_data_from_internet(url_logo)
         
         if 'standings' in jsonFile['data']:
@@ -36,7 +36,7 @@ def get_logo(dataId=None, dataUrl=None, otherParam=None,club=True ):
         else:
             print('No Data Available for '+dataId+'\n')
     else:
-        URL = dataUrl
+        URL = dataUrl.rstrip('\"') #make sure to clean url
         response = requests.get(URL)
         open((f"{parent_folder_logo}{dataId}/{dataId}_{otherParam}.png"), "wb").write(response.content)
         

@@ -783,7 +783,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>cp -v src/team-icons/$club/$club.png 27AED678-65BD-4013-A88E-C6034F4D1C9D.png</string>
+				<string>cp -v src/team-icons/$club/${club}_light.png 27AED678-65BD-4013-A88E-C6034F4D1C9D.png</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1110,6 +1110,11 @@
 			<string>club_fav_title</string>
 		</dict>
 	</array>
+	<key>variables</key>
+	<dict>
+		<key>adaptive_dark_mode_league_icon</key>
+		<string>True</string>
+	</dict>
 	<key>version</key>
 	<string>2.2</string>
 	<key>webaddress</key>

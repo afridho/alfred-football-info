@@ -16,6 +16,7 @@ import requests
 from isCached import doCache
 from importlib import reload
 from dl_logo import parent_folder_logo
+import check_dark_mode
 reload(sys)
 
 def get_data_json():
@@ -57,7 +58,15 @@ def get_status_lastMatched(point=None):
         return '✴️'
     else:
         return '🔴'
-
+def light_dark():
+    env_dark_mode = os.environ['adaptive_dark_mode_league_icon'] or True
+    if (env_dark_mode):
+        if (check_dark_mode.check_appearance()):
+            return '_dark'
+        else:
+            return '_light'
+    else:
+         return '_light'   
 
 def football(search=None, division=None):
     be = doCache()
@@ -69,12 +78,6 @@ def football(search=None, division=None):
     
     projects = data_out['data']
     
-    
-    # variable to short
-    sT = 'stats'
-    dV = 'displayValue'
-    oV = 'value'
-    
     result = []
     for project in projects:
         if search is not None and project['name'].lower().find(search.lower()) == -1:
@@ -85,7 +88,7 @@ def football(search=None, division=None):
             'arg': f"{project['id']}",
             'valid' : True,
             'icon': {
-                'path': (f"{parent_folder_logo}{project['id']}/{project['id']}.png") if os.path.exists(f"{parent_folder_logo}{project['id']}/{project['id']}.png") else (f"{parent_folder_logo}/no-logo.png") # check icon if empty
+                'path': (f"{parent_folder_logo}{project['id']}/{project['id']}{light_dark()}.png")  if os.path.exists(f"{parent_folder_logo}{project['id']}/{project['id']}{light_dark()}.png") else (f"{parent_folder_logo}/no-logo.png") # check icon if empty
             },
             # "action": {
             #     "text": project['team']['displayName'],
@@ -96,11 +99,11 @@ def football(search=None, division=None):
             #     "largetype": f"{division}\n{project['team']['abbreviation']}\n{project['team']['displayName'].lower()}"
             # },
             'mods': {
-                # 'alt': {
-                #     'valid': True,
-                #     # 'arg': project['id'],
-                #     'subtitle': f"Rank : {get_rank_symbol(project[sT][8][oV])}"
-                # },
+                'alt': {
+                    'valid': False,
+                    # 'arg': project['id'],
+                    'subtitle': f"League code : {project['id']}"
+                },
                 # 'ctrl': {
                 #     'valid': True,
                 #     # add argument project finished to Dialog Conditional
