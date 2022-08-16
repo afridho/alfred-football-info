@@ -1,0 +1,3211 @@
+{
+    "status": true,
+    "data": {
+        "name": "English Premier League",
+        "abbreviation": "Prem",
+        "seasonDisplay": "2022-2023",
+        "season": 2022,
+        "standings": [
+            {
+                "team": {
+                    "id": "382",
+                    "uid": "s:600~t:382",
+                    "location": "Manchester City",
+                    "name": "Manchester City",
+                    "abbreviation": "MNC",
+                    "displayName": "Manchester City",
+                    "shortDisplayName": "Man City",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#81D6AC",
+                    "description": "Champions League",
+                    "rank": 1
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 6,
+                        "displayValue": "+6"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "2-0-0",
+                        "displayValue": "2-0-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "359",
+                    "uid": "s:600~t:359",
+                    "location": "Arsenal",
+                    "name": "Arsenal",
+                    "abbreviation": "ARS",
+                    "displayName": "Arsenal",
+                    "shortDisplayName": "Arsenal",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#81D6AC",
+                    "description": "Champions League",
+                    "rank": 2
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 4,
+                        "displayValue": "+4"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "2-0-0",
+                        "displayValue": "2-0-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "337",
+                    "uid": "s:600~t:337",
+                    "location": "Brentford",
+                    "name": "Brentford",
+                    "abbreviation": "BRE",
+                    "displayName": "Brentford",
+                    "shortDisplayName": "Brentford",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2020-07-16T16:13Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#81D6AC",
+                    "description": "Champions League",
+                    "rank": 3
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 4,
+                        "displayValue": "+4"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-1-0",
+                        "displayValue": "1-1-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "367",
+                    "uid": "s:600~t:367",
+                    "location": "Tottenham Hotspur",
+                    "name": "Tottenham Hotspur",
+                    "abbreviation": "TOT",
+                    "displayName": "Tottenham Hotspur",
+                    "shortDisplayName": "Tottenham",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#81D6AC",
+                    "description": "Champions League",
+                    "rank": 4
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 3,
+                        "displayValue": "+3"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-1-0",
+                        "displayValue": "1-1-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "361",
+                    "uid": "s:600~t:361",
+                    "location": "Newcastle United",
+                    "name": "Newcastle United",
+                    "abbreviation": "NEW",
+                    "displayName": "Newcastle United",
+                    "shortDisplayName": "Newcastle",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#B2BFD0",
+                    "description": "Europa League",
+                    "rank": 5
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 5,
+                        "displayValue": "5"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 2,
+                        "displayValue": "+2"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-1-0",
+                        "displayValue": "1-1-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "357",
+                    "uid": "s:600~t:357",
+                    "location": "Leeds United",
+                    "name": "Leeds United",
+                    "abbreviation": "LEE",
+                    "displayName": "Leeds United",
+                    "shortDisplayName": "Leeds",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 1,
+                        "displayValue": "+1"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-1-0",
+                        "displayValue": "1-1-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "363",
+                    "uid": "s:600~t:363",
+                    "location": "Chelsea",
+                    "name": "Chelsea",
+                    "abbreviation": "CHE",
+                    "displayName": "Chelsea",
+                    "shortDisplayName": "Chelsea",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 7,
+                        "displayValue": "7"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 1,
+                        "displayValue": "+1"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-1-0",
+                        "displayValue": "1-1-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "331",
+                    "uid": "s:600~t:331",
+                    "location": "Brighton & Hove Albion",
+                    "name": "Brighton & Hove Albion",
+                    "abbreviation": "BHA",
+                    "displayName": "Brighton & Hove Albion",
+                    "shortDisplayName": "Brighton",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 8,
+                        "displayValue": "8"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 1,
+                        "displayValue": "+1"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-1-0",
+                        "displayValue": "1-1-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "362",
+                    "uid": "s:600~t:362",
+                    "location": "Aston Villa",
+                    "name": "Aston Villa",
+                    "abbreviation": "AVL",
+                    "displayName": "Aston Villa",
+                    "shortDisplayName": "Aston Villa",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 9,
+                        "displayValue": "9"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -1,
+                        "displayValue": "-1"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-0-1",
+                        "displayValue": "1-0-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "393",
+                    "uid": "s:600~t:393",
+                    "location": "Nottingham Forest",
+                    "name": "Nottingham Forest",
+                    "abbreviation": "FOR",
+                    "displayName": "Nottingham Forest",
+                    "shortDisplayName": "Nottm Forest",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 10,
+                        "displayValue": "10"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -1,
+                        "displayValue": "-1"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-0-1",
+                        "displayValue": "1-0-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "349",
+                    "uid": "s:600~t:349",
+                    "location": "AFC Bournemouth",
+                    "name": "AFC Bournemouth",
+                    "abbreviation": "BOU",
+                    "displayName": "AFC Bournemouth",
+                    "shortDisplayName": "Bournemouth",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 11,
+                        "displayValue": "11"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -2,
+                        "displayValue": "-2"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "1-0-1",
+                        "displayValue": "1-0-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "370",
+                    "uid": "s:600~t:370",
+                    "location": "Fulham",
+                    "name": "Fulham",
+                    "abbreviation": "FUL",
+                    "displayName": "Fulham",
+                    "shortDisplayName": "Fulham",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 12,
+                        "displayValue": "12"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-2-0",
+                        "displayValue": "0-2-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "364",
+                    "uid": "s:600~t:364",
+                    "location": "Liverpool",
+                    "name": "Liverpool",
+                    "abbreviation": "LIV",
+                    "displayName": "Liverpool",
+                    "shortDisplayName": "Liverpool",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 13,
+                        "displayValue": "13"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-1-0",
+                        "displayValue": "0-1-0"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "380",
+                    "uid": "s:600~t:380",
+                    "location": "Wolverhampton Wanderers",
+                    "name": "Wolverhampton Wanderers",
+                    "abbreviation": "WOL",
+                    "displayName": "Wolverhampton Wanderers",
+                    "shortDisplayName": "Wolves",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 14,
+                        "displayValue": "14"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -1,
+                        "displayValue": "-1"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-1-1",
+                        "displayValue": "0-1-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "375",
+                    "uid": "s:600~t:375",
+                    "location": "Leicester City",
+                    "name": "Leicester City",
+                    "abbreviation": "LEI",
+                    "displayName": "Leicester City",
+                    "shortDisplayName": "Leicester",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 15,
+                        "displayValue": "15"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -2,
+                        "displayValue": "-2"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-1-1",
+                        "displayValue": "0-1-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "376",
+                    "uid": "s:600~t:376",
+                    "location": "Southampton",
+                    "name": "Southampton",
+                    "abbreviation": "SOU",
+                    "displayName": "Southampton",
+                    "shortDisplayName": "Southampton",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 16,
+                        "displayValue": "16"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -3,
+                        "displayValue": "-3"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-1-1",
+                        "displayValue": "0-1-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "368",
+                    "uid": "s:600~t:368",
+                    "location": "Everton",
+                    "name": "Everton",
+                    "abbreviation": "EVE",
+                    "displayName": "Everton",
+                    "shortDisplayName": "Everton",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 17,
+                        "displayValue": "17"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -2,
+                        "displayValue": "-2"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-0-2",
+                        "displayValue": "0-0-2"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "384",
+                    "uid": "s:600~t:384",
+                    "location": "Crystal Palace",
+                    "name": "Crystal Palace",
+                    "abbreviation": "CRY",
+                    "displayName": "Crystal Palace",
+                    "shortDisplayName": "C Palace",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#FF7F84",
+                    "description": "Relegation",
+                    "rank": 18
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 18,
+                        "displayValue": "18"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -2,
+                        "displayValue": "-2"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-0-1",
+                        "displayValue": "0-0-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "371",
+                    "uid": "s:600~t:371",
+                    "location": "West Ham United",
+                    "name": "West Ham United",
+                    "abbreviation": "WHU",
+                    "displayName": "West Ham United",
+                    "shortDisplayName": "West Ham",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#FF7F84",
+                    "description": "Relegation",
+                    "rank": 19
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 3,
+                        "displayValue": "3"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 19,
+                        "displayValue": "19"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -3,
+                        "displayValue": "-3"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-0-2",
+                        "displayValue": "0-0-2"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "360",
+                    "uid": "s:600~t:360",
+                    "location": "Manchester United",
+                    "name": "Manchester United",
+                    "abbreviation": "MAN",
+                    "displayName": "Manchester United",
+                    "shortDisplayName": "Man United",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2019-05-08T16:07Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#FF7F84",
+                    "description": "Relegation",
+                    "rank": 20
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 20,
+                        "displayValue": "20"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -5,
+                        "displayValue": "-5"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-0-2",
+                        "displayValue": "0-0-2"
+                    }
+                ]
+            }
+        ]
+    }
+}
