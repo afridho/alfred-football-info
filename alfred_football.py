@@ -8,8 +8,6 @@
 from __future__ import print_function, absolute_import
 import json
 import sys
-import random
-import string
 import os
 from datetime import datetime
 import requests

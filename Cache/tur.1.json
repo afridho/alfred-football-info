@@ -1,24 +1,24 @@
 {
     "status": true,
     "data": {
-        "name": "English Premier League",
-        "abbreviation": "Prem",
-        "seasonDisplay": "2022-2023",
+        "name": "Turkish Super Lig",
+        "abbreviation": "Super",
+        "seasonDisplay": "2022/2023",
         "season": 2022,
         "standings": [
             {
                 "team": {
-                    "id": "382",
-                    "uid": "s:600~t:382",
-                    "location": "Manchester City",
-                    "name": "Manchester City",
-                    "abbreviation": "MNC",
-                    "displayName": "Manchester City",
-                    "shortDisplayName": "Man City",
+                    "id": "20765",
+                    "uid": "s:600~t:20765",
+                    "location": "Adana Demirspor",
+                    "name": "Adana Demirspor",
+                    "abbreviation": "ADD",
+                    "displayName": "Adana Demirspor",
+                    "shortDisplayName": "Adana Demirspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/20765.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -26,13 +26,13 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2021-08-18T17:34Z"
                         }
                     ]
                 },
                 "note": {
-                    "color": "#81D6AC",
-                    "description": "Champions League",
+                    "color": "#B5E7CE",
+                    "description": "Champions League qualifying",
                     "rank": 1
                 },
                 "stats": [
@@ -93,8 +93,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 0,
-                        "displayValue": "0"
+                        "value": 2,
+                        "displayValue": "2"
                     },
                     {
                         "name": "points",
@@ -133,8 +133,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": 6,
-                        "displayValue": "+6"
+                        "value": 4,
+                        "displayValue": "+4"
                     },
                     {
                         "name": "deductions",
@@ -171,17 +171,17 @@
             },
             {
                 "team": {
-                    "id": "359",
-                    "uid": "s:600~t:359",
-                    "location": "Arsenal",
-                    "name": "Arsenal",
-                    "abbreviation": "ARS",
-                    "displayName": "Arsenal",
-                    "shortDisplayName": "Arsenal",
+                    "id": "997",
+                    "uid": "s:600~t:997",
+                    "location": "Trabzonspor",
+                    "name": "Trabzonspor",
+                    "abbreviation": "TRAB",
+                    "displayName": "Trabzonspor",
+                    "shortDisplayName": "Trabzonspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -194,8 +194,8 @@
                     ]
                 },
                 "note": {
-                    "color": "#81D6AC",
-                    "description": "Champions League",
+                    "color": "#B5E7CE",
+                    "description": "Champions League qualifying",
                     "rank": 2
                 },
                 "stats": [
@@ -246,8 +246,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 6,
-                        "displayValue": "6"
+                        "value": 3,
+                        "displayValue": "3"
                     },
                     {
                         "name": "pointsAgainst",
@@ -256,8 +256,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "points",
@@ -296,8 +296,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": 4,
-                        "displayValue": "+4"
+                        "value": 3,
+                        "displayValue": "+3"
                     },
                     {
                         "name": "deductions",
@@ -334,17 +334,17 @@
             },
             {
                 "team": {
-                    "id": "337",
-                    "uid": "s:600~t:337",
-                    "location": "Brentford",
-                    "name": "Brentford",
-                    "abbreviation": "BRE",
-                    "displayName": "Brentford",
-                    "shortDisplayName": "Brentford",
+                    "id": "436",
+                    "uid": "s:600~t:436",
+                    "location": "Fenerbahce",
+                    "name": "Fenerbahce",
+                    "abbreviation": "FEN",
+                    "displayName": "Fenerbahce",
+                    "shortDisplayName": "Fenerbahce",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -352,13 +352,13 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2020-07-16T16:13Z"
+                            "lastUpdated": "2018-06-05T12:14Z"
                         }
                     ]
                 },
                 "note": {
-                    "color": "#81D6AC",
-                    "description": "Champions League",
+                    "color": "#c6d1e0",
+                    "description": "Europa Conference League qualifying",
                     "rank": 3
                 },
                 "stats": [
@@ -409,8 +409,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 6,
-                        "displayValue": "6"
+                        "value": 9,
+                        "displayValue": "9"
                     },
                     {
                         "name": "pointsAgainst",
@@ -419,8 +419,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 3,
+                        "displayValue": "3"
                     },
                     {
                         "name": "points",
@@ -459,8 +459,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": 4,
-                        "displayValue": "+4"
+                        "value": 6,
+                        "displayValue": "+6"
                     },
                     {
                         "name": "deductions",
@@ -497,17 +497,17 @@
             },
             {
                 "team": {
-                    "id": "367",
-                    "uid": "s:600~t:367",
-                    "location": "Tottenham Hotspur",
-                    "name": "Tottenham Hotspur",
-                    "abbreviation": "TOT",
-                    "displayName": "Tottenham Hotspur",
-                    "shortDisplayName": "Tottenham",
+                    "id": "7914",
+                    "uid": "s:600~t:7914",
+                    "location": "Istanbul Basaksehir",
+                    "name": "Istanbul Basaksehir",
+                    "abbreviation": "IBFK",
+                    "displayName": "Istanbul Basaksehir",
+                    "shortDisplayName": "Istanbul BB",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -520,8 +520,8 @@
                     ]
                 },
                 "note": {
-                    "color": "#81D6AC",
-                    "description": "Champions League",
+                    "color": "#c6d1e0",
+                    "description": "Europa Conference League qualifying",
                     "rank": 4
                 },
                 "stats": [
@@ -572,8 +572,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 6,
-                        "displayValue": "6"
+                        "value": 4,
+                        "displayValue": "4"
                     },
                     {
                         "name": "pointsAgainst",
@@ -582,8 +582,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 3,
-                        "displayValue": "3"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "points",
@@ -622,8 +622,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": 3,
-                        "displayValue": "+3"
+                        "value": 4,
+                        "displayValue": "+4"
                     },
                     {
                         "name": "deductions",
@@ -660,17 +660,17 @@
             },
             {
                 "team": {
-                    "id": "361",
-                    "uid": "s:600~t:361",
-                    "location": "Newcastle United",
-                    "name": "Newcastle United",
-                    "abbreviation": "NEW",
-                    "displayName": "Newcastle United",
-                    "shortDisplayName": "Newcastle",
+                    "id": "9078",
+                    "uid": "s:600~t:9078",
+                    "location": "Alanyaspor",
+                    "name": "Alanyaspor",
+                    "abbreviation": "ALA",
+                    "displayName": "Alanyaspor",
+                    "shortDisplayName": "Alanyaspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -678,14 +678,9 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2018-09-21T18:23Z"
                         }
                     ]
-                },
-                "note": {
-                    "color": "#B2BFD0",
-                    "description": "Europa League",
-                    "rank": 5
                 },
                 "stats": [
                     {
@@ -735,8 +730,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 7,
+                        "displayValue": "7"
                     },
                     {
                         "name": "pointsAgainst",
@@ -745,8 +740,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 0,
-                        "displayValue": "0"
+                        "value": 5,
+                        "displayValue": "5"
                     },
                     {
                         "name": "points",
@@ -823,17 +818,17 @@
             },
             {
                 "team": {
-                    "id": "357",
-                    "uid": "s:600~t:357",
-                    "location": "Leeds United",
-                    "name": "Leeds United",
-                    "abbreviation": "LEE",
-                    "displayName": "Leeds United",
-                    "shortDisplayName": "Leeds",
+                    "id": "1895",
+                    "uid": "s:600~t:1895",
+                    "location": "Besiktas",
+                    "name": "Besiktas",
+                    "abbreviation": "BES",
+                    "displayName": "Besiktas",
+                    "shortDisplayName": "Besiktas",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -981,17 +976,17 @@
             },
             {
                 "team": {
-                    "id": "363",
-                    "uid": "s:600~t:363",
-                    "location": "Chelsea",
-                    "name": "Chelsea",
-                    "abbreviation": "CHE",
-                    "displayName": "Chelsea",
-                    "shortDisplayName": "Chelsea",
+                    "id": "20070",
+                    "uid": "s:600~t:20070",
+                    "location": "Gazisehir Gaziantep",
+                    "name": "Gazisehir Gaziantep",
+                    "abbreviation": "GAZ",
+                    "displayName": "Gazisehir Gaziantep",
+                    "shortDisplayName": "Gaziantep",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -999,7 +994,7 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2019-08-05T22:30Z"
                         }
                     ]
                 },
@@ -1051,8 +1046,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 3,
-                        "displayValue": "3"
+                        "value": 2,
+                        "displayValue": "2"
                     },
                     {
                         "name": "pointsAgainst",
@@ -1061,8 +1056,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "points",
@@ -1139,17 +1134,17 @@
             },
             {
                 "team": {
-                    "id": "331",
-                    "uid": "s:600~t:331",
-                    "location": "Brighton & Hove Albion",
-                    "name": "Brighton & Hove Albion",
-                    "abbreviation": "BHA",
-                    "displayName": "Brighton & Hove Albion",
-                    "shortDisplayName": "Brighton",
+                    "id": "21031",
+                    "uid": "s:600~t:21031",
+                    "location": "Giresunspor",
+                    "name": "Giresunspor",
+                    "abbreviation": "GIR",
+                    "displayName": "Giresunspor",
+                    "shortDisplayName": "Giresunspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/21031.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -1157,7 +1152,7 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2021-08-18T17:35Z"
                         }
                     ]
                 },
@@ -1179,8 +1174,8 @@
                         "description": "Losses",
                         "abbreviation": "L",
                         "type": "losses",
-                        "value": 0,
-                        "displayValue": "0"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "ties",
@@ -1189,8 +1184,8 @@
                         "description": "Draws",
                         "abbreviation": "D",
                         "type": "ties",
-                        "value": 1,
-                        "displayValue": "1"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "gamesPlayed",
@@ -1209,8 +1204,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 3,
+                        "displayValue": "3"
                     },
                     {
                         "name": "pointsAgainst",
@@ -1219,8 +1214,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 1,
-                        "displayValue": "1"
+                        "value": 3,
+                        "displayValue": "3"
                     },
                     {
                         "name": "points",
@@ -1229,8 +1224,8 @@
                         "description": "Points",
                         "abbreviation": "P",
                         "type": "points",
-                        "value": 4,
-                        "displayValue": "4"
+                        "value": 3,
+                        "displayValue": "3"
                     },
                     {
                         "name": "rankChange",
@@ -1259,8 +1254,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": 1,
-                        "displayValue": "+1"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "deductions",
@@ -1290,24 +1285,24 @@
                         "shortDisplayName": "OVER",
                         "description": "Overall Record",
                         "type": "total",
-                        "summary": "1-1-0",
-                        "displayValue": "1-1-0"
+                        "summary": "1-0-1",
+                        "displayValue": "1-0-1"
                     }
                 ]
             },
             {
                 "team": {
-                    "id": "362",
-                    "uid": "s:600~t:362",
-                    "location": "Aston Villa",
-                    "name": "Aston Villa",
-                    "abbreviation": "AVL",
-                    "displayName": "Aston Villa",
-                    "shortDisplayName": "Aston Villa",
+                    "id": "3794",
+                    "uid": "s:600~t:3794",
+                    "location": "Antalyaspor",
+                    "name": "Antalyaspor",
+                    "abbreviation": "ANT",
+                    "displayName": "Antalyaspor",
+                    "shortDisplayName": "Antalyaspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/3794.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -1315,7 +1310,7 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2018-06-05T12:14Z"
                         }
                     ]
                 },
@@ -1367,8 +1362,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "pointsAgainst",
@@ -1377,8 +1372,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 3,
-                        "displayValue": "3"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "points",
@@ -1417,8 +1412,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": -1,
-                        "displayValue": "-1"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "deductions",
@@ -1455,17 +1450,17 @@
             },
             {
                 "team": {
-                    "id": "393",
-                    "uid": "s:600~t:393",
-                    "location": "Nottingham Forest",
-                    "name": "Nottingham Forest",
-                    "abbreviation": "FOR",
-                    "displayName": "Nottingham Forest",
-                    "shortDisplayName": "Nottm Forest",
+                    "id": "432",
+                    "uid": "s:600~t:432",
+                    "location": "Galatasaray",
+                    "name": "Galatasaray",
+                    "abbreviation": "GAL",
+                    "displayName": "Galatasaray",
+                    "shortDisplayName": "Galatasaray",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -1476,6 +1471,11 @@
                             "lastUpdated": "2019-05-08T16:07Z"
                         }
                     ]
+                },
+                "note": {
+                    "color": "#B2BFD0",
+                    "description": "Europa League qualifying",
+                    "rank": 10
                 },
                 "stats": [
                     {
@@ -1535,8 +1535,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "points",
@@ -1575,8 +1575,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": -1,
-                        "displayValue": "-1"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "deductions",
@@ -1613,17 +1613,17 @@
             },
             {
                 "team": {
-                    "id": "349",
-                    "uid": "s:600~t:349",
-                    "location": "AFC Bournemouth",
-                    "name": "AFC Bournemouth",
-                    "abbreviation": "BOU",
-                    "displayName": "AFC Bournemouth",
-                    "shortDisplayName": "Bournemouth",
+                    "id": "3643",
+                    "uid": "s:600~t:3643",
+                    "location": "Kayserispor",
+                    "name": "Kayserispor",
+                    "abbreviation": "KAY",
+                    "displayName": "Kayserispor",
+                    "shortDisplayName": "Kayserispor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/3643.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -1631,7 +1631,7 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2018-09-21T18:21Z"
                         }
                     ]
                 },
@@ -1683,8 +1683,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "pointsAgainst",
@@ -1693,8 +1693,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 4,
-                        "displayValue": "4"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "points",
@@ -1733,8 +1733,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": -2,
-                        "displayValue": "-2"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "deductions",
@@ -1771,17 +1771,17 @@
             },
             {
                 "team": {
-                    "id": "364",
-                    "uid": "s:600~t:364",
-                    "location": "Liverpool",
-                    "name": "Liverpool",
-                    "abbreviation": "LIV",
-                    "displayName": "Liverpool",
-                    "shortDisplayName": "Liverpool",
+                    "id": "7648",
+                    "uid": "s:600~t:7648",
+                    "location": "Konyaspor",
+                    "name": "Konyaspor",
+                    "abbreviation": "KNY",
+                    "displayName": "Konyaspor",
+                    "shortDisplayName": "Konyaspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -1841,8 +1841,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 3,
-                        "displayValue": "3"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "pointsAgainst",
@@ -1851,8 +1851,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 3,
-                        "displayValue": "3"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "points",
@@ -1929,17 +1929,17 @@
             },
             {
                 "team": {
-                    "id": "370",
-                    "uid": "s:600~t:370",
-                    "location": "Fulham",
-                    "name": "Fulham",
-                    "abbreviation": "FUL",
-                    "displayName": "Fulham",
-                    "shortDisplayName": "Fulham",
+                    "id": "20041",
+                    "uid": "s:600~t:20041",
+                    "location": "Umraniyespor",
+                    "name": "Umraniyespor",
+                    "abbreviation": "UMR",
+                    "displayName": "Umraniyespor",
+                    "shortDisplayName": "Umraniyespor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/20041.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -1947,7 +1947,7 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2022-07-25T15:32Z"
                         }
                     ]
                 },
@@ -1969,8 +1969,8 @@
                         "description": "Losses",
                         "abbreviation": "L",
                         "type": "losses",
-                        "value": 0,
-                        "displayValue": "0"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "ties",
@@ -1979,8 +1979,8 @@
                         "description": "Draws",
                         "abbreviation": "D",
                         "type": "ties",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "gamesPlayed",
@@ -1999,8 +1999,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 3,
+                        "displayValue": "3"
                     },
                     {
                         "name": "pointsAgainst",
@@ -2009,8 +2009,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 4,
+                        "displayValue": "4"
                     },
                     {
                         "name": "points",
@@ -2019,8 +2019,8 @@
                         "description": "Points",
                         "abbreviation": "P",
                         "type": "points",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "rankChange",
@@ -2049,8 +2049,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": 0,
-                        "displayValue": "0"
+                        "value": -1,
+                        "displayValue": "-1"
                     },
                     {
                         "name": "deductions",
@@ -2080,24 +2080,24 @@
                         "shortDisplayName": "OVER",
                         "description": "Overall Record",
                         "type": "total",
-                        "summary": "0-2-0",
-                        "displayValue": "0-2-0"
+                        "summary": "0-1-1",
+                        "displayValue": "0-1-1"
                     }
                 ]
             },
             {
                 "team": {
-                    "id": "380",
-                    "uid": "s:600~t:380",
-                    "location": "Wolverhampton Wanderers",
-                    "name": "Wolverhampton Wanderers",
-                    "abbreviation": "WOL",
-                    "displayName": "Wolverhampton Wanderers",
-                    "shortDisplayName": "Wolves",
+                    "id": "2429",
+                    "uid": "s:600~t:2429",
+                    "location": "Ankaragucu",
+                    "name": "Ankaragucu",
+                    "abbreviation": "ANK",
+                    "displayName": "Ankaragucu",
+                    "shortDisplayName": "Ankaragucu",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/2429.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -2105,7 +2105,7 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2018-09-21T18:20Z"
                         }
                     ]
                 },
@@ -2157,8 +2157,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 1,
-                        "displayValue": "1"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "pointsAgainst",
@@ -2167,8 +2167,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 2,
-                        "displayValue": "2"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "points",
@@ -2245,17 +2245,17 @@
             },
             {
                 "team": {
-                    "id": "375",
-                    "uid": "s:600~t:375",
-                    "location": "Leicester City",
-                    "name": "Leicester City",
-                    "abbreviation": "LEI",
-                    "displayName": "Leicester City",
-                    "shortDisplayName": "Leicester",
+                    "id": "3691",
+                    "uid": "s:600~t:3691",
+                    "location": "Sivasspor",
+                    "name": "Sivasspor",
+                    "abbreviation": "SIV",
+                    "displayName": "Sivasspor",
+                    "shortDisplayName": "Sivasspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/3691.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -2263,7 +2263,7 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2018-09-21T18:21Z"
                         }
                     ]
                 },
@@ -2315,8 +2315,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 4,
-                        "displayValue": "4"
+                        "value": 1,
+                        "displayValue": "1"
                     },
                     {
                         "name": "pointsAgainst",
@@ -2325,8 +2325,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 6,
-                        "displayValue": "6"
+                        "value": 4,
+                        "displayValue": "4"
                     },
                     {
                         "name": "points",
@@ -2357,322 +2357,6 @@
                         "type": "rank",
                         "value": 15,
                         "displayValue": "15"
-                    },
-                    {
-                        "name": "pointDifferential",
-                        "displayName": "Goal Difference",
-                        "shortDisplayName": "GD",
-                        "description": "Goal Difference",
-                        "abbreviation": "GD",
-                        "type": "pointdifferential",
-                        "value": -2,
-                        "displayValue": "-2"
-                    },
-                    {
-                        "name": "deductions",
-                        "displayName": "Point Deductions",
-                        "shortDisplayName": "Deductions",
-                        "description": "Point Deductions",
-                        "abbreviation": "PD",
-                        "type": "deductions",
-                        "value": 0,
-                        "displayValue": ""
-                    },
-                    {
-                        "name": "ppg",
-                        "displayName": "Points Per Game",
-                        "shortDisplayName": "PPG",
-                        "description": "Points Per Game",
-                        "abbreviation": "PPG",
-                        "type": "ppg",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "id": "0",
-                        "name": "All Splits",
-                        "abbreviation": "Total",
-                        "displayName": "Overall",
-                        "shortDisplayName": "OVER",
-                        "description": "Overall Record",
-                        "type": "total",
-                        "summary": "0-1-1",
-                        "displayValue": "0-1-1"
-                    }
-                ]
-            },
-            {
-                "team": {
-                    "id": "384",
-                    "uid": "s:600~t:384",
-                    "location": "Crystal Palace",
-                    "name": "Crystal Palace",
-                    "abbreviation": "CRY",
-                    "displayName": "Crystal Palace",
-                    "shortDisplayName": "C Palace",
-                    "isActive": true,
-                    "logos": [
-                        {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-                            "width": 500,
-                            "height": 500,
-                            "alt": "",
-                            "rel": [
-                                "full",
-                                "default"
-                            ],
-                            "lastUpdated": "2019-05-08T16:07Z"
-                        }
-                    ]
-                },
-                "stats": [
-                    {
-                        "name": "wins",
-                        "displayName": "Wins",
-                        "shortDisplayName": "W",
-                        "description": "Team's current Win-Loss record",
-                        "abbreviation": "W",
-                        "type": "wins",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "losses",
-                        "displayName": "Losses",
-                        "shortDisplayName": "L",
-                        "description": "Losses",
-                        "abbreviation": "L",
-                        "type": "losses",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "ties",
-                        "displayName": "Draws",
-                        "shortDisplayName": "D",
-                        "description": "Draws",
-                        "abbreviation": "D",
-                        "type": "ties",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "gamesPlayed",
-                        "displayName": "Games Played",
-                        "shortDisplayName": "GP",
-                        "description": "Games Played",
-                        "abbreviation": "GP",
-                        "type": "gamesplayed",
-                        "value": 2,
-                        "displayValue": "2"
-                    },
-                    {
-                        "name": "pointsFor",
-                        "displayName": "Goals For",
-                        "shortDisplayName": "F",
-                        "description": "Goals For",
-                        "abbreviation": "F",
-                        "type": "pointsfor",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "pointsAgainst",
-                        "displayName": "Goals Against",
-                        "shortDisplayName": "A",
-                        "description": "Goals Against",
-                        "abbreviation": "A",
-                        "type": "pointsagainst",
-                        "value": 3,
-                        "displayValue": "3"
-                    },
-                    {
-                        "name": "points",
-                        "displayName": "Points",
-                        "shortDisplayName": "P",
-                        "description": "Points",
-                        "abbreviation": "P",
-                        "type": "points",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "rankChange",
-                        "displayName": "Rank Change",
-                        "shortDisplayName": "Rank Change",
-                        "description": "Rank Change",
-                        "abbreviation": "RC",
-                        "type": "rankchange",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "rank",
-                        "displayName": "Rank",
-                        "shortDisplayName": "Rank",
-                        "description": "Rank",
-                        "abbreviation": "R",
-                        "type": "rank",
-                        "value": 16,
-                        "displayValue": "16"
-                    },
-                    {
-                        "name": "pointDifferential",
-                        "displayName": "Goal Difference",
-                        "shortDisplayName": "GD",
-                        "description": "Goal Difference",
-                        "abbreviation": "GD",
-                        "type": "pointdifferential",
-                        "value": -2,
-                        "displayValue": "-2"
-                    },
-                    {
-                        "name": "deductions",
-                        "displayName": "Point Deductions",
-                        "shortDisplayName": "Deductions",
-                        "description": "Point Deductions",
-                        "abbreviation": "PD",
-                        "type": "deductions",
-                        "value": 0,
-                        "displayValue": ""
-                    },
-                    {
-                        "name": "ppg",
-                        "displayName": "Points Per Game",
-                        "shortDisplayName": "PPG",
-                        "description": "Points Per Game",
-                        "abbreviation": "PPG",
-                        "type": "ppg",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "id": "0",
-                        "name": "All Splits",
-                        "abbreviation": "Total",
-                        "displayName": "Overall",
-                        "shortDisplayName": "OVER",
-                        "description": "Overall Record",
-                        "type": "total",
-                        "summary": "0-1-1",
-                        "displayValue": "0-1-1"
-                    }
-                ]
-            },
-            {
-                "team": {
-                    "id": "376",
-                    "uid": "s:600~t:376",
-                    "location": "Southampton",
-                    "name": "Southampton",
-                    "abbreviation": "SOU",
-                    "displayName": "Southampton",
-                    "shortDisplayName": "Southampton",
-                    "isActive": true,
-                    "logos": [
-                        {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
-                            "width": 500,
-                            "height": 500,
-                            "alt": "",
-                            "rel": [
-                                "full",
-                                "default"
-                            ],
-                            "lastUpdated": "2019-05-08T16:07Z"
-                        }
-                    ]
-                },
-                "stats": [
-                    {
-                        "name": "wins",
-                        "displayName": "Wins",
-                        "shortDisplayName": "W",
-                        "description": "Team's current Win-Loss record",
-                        "abbreviation": "W",
-                        "type": "wins",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "losses",
-                        "displayName": "Losses",
-                        "shortDisplayName": "L",
-                        "description": "Losses",
-                        "abbreviation": "L",
-                        "type": "losses",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "ties",
-                        "displayName": "Draws",
-                        "shortDisplayName": "D",
-                        "description": "Draws",
-                        "abbreviation": "D",
-                        "type": "ties",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "gamesPlayed",
-                        "displayName": "Games Played",
-                        "shortDisplayName": "GP",
-                        "description": "Games Played",
-                        "abbreviation": "GP",
-                        "type": "gamesplayed",
-                        "value": 2,
-                        "displayValue": "2"
-                    },
-                    {
-                        "name": "pointsFor",
-                        "displayName": "Goals For",
-                        "shortDisplayName": "F",
-                        "description": "Goals For",
-                        "abbreviation": "F",
-                        "type": "pointsfor",
-                        "value": 3,
-                        "displayValue": "3"
-                    },
-                    {
-                        "name": "pointsAgainst",
-                        "displayName": "Goals Against",
-                        "shortDisplayName": "A",
-                        "description": "Goals Against",
-                        "abbreviation": "A",
-                        "type": "pointsagainst",
-                        "value": 6,
-                        "displayValue": "6"
-                    },
-                    {
-                        "name": "points",
-                        "displayName": "Points",
-                        "shortDisplayName": "P",
-                        "description": "Points",
-                        "abbreviation": "P",
-                        "type": "points",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "rankChange",
-                        "displayName": "Rank Change",
-                        "shortDisplayName": "Rank Change",
-                        "description": "Rank Change",
-                        "abbreviation": "RC",
-                        "type": "rankchange",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "rank",
-                        "displayName": "Rank",
-                        "shortDisplayName": "Rank",
-                        "description": "Rank",
-                        "abbreviation": "R",
-                        "type": "rank",
-                        "value": 17,
-                        "displayValue": "17"
                     },
                     {
                         "name": "pointDifferential",
@@ -2719,17 +2403,17 @@
             },
             {
                 "team": {
-                    "id": "368",
-                    "uid": "s:600~t:368",
-                    "location": "Everton",
-                    "name": "Everton",
-                    "abbreviation": "EVE",
-                    "displayName": "Everton",
-                    "shortDisplayName": "Everton",
+                    "id": "20737",
+                    "uid": "s:600~t:20737",
+                    "location": "Hatayspor",
+                    "name": "Hatayspor",
+                    "abbreviation": "HAY",
+                    "displayName": "Hatayspor",
+                    "shortDisplayName": "Hatayspor",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/20737.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -2737,13 +2421,334 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2020-09-22T18:26Z"
+                        }
+                    ]
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 16,
+                        "displayValue": "16"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -1,
+                        "displayValue": "-1"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-0-1",
+                        "displayValue": "0-0-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "20736",
+                    "uid": "s:600~t:20736",
+                    "location": "Fatih Karag\u00fcmr\u00fck",
+                    "name": "Fatih Karag\u00fcmr\u00fck",
+                    "abbreviation": "FAI",
+                    "displayName": "Fatih Karag\u00fcmr\u00fck",
+                    "shortDisplayName": "Fatih Karag\u00fc",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/20736.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2020-09-22T18:26Z"
                         }
                     ]
                 },
                 "note": {
                     "color": "#FF7F84",
-                    "description": "Relegation",
+                    "description": "Relegated",
+                    "rank": 17
+                },
+                "stats": [
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Team's current Win-Loss record",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Draws",
+                        "shortDisplayName": "D",
+                        "description": "Draws",
+                        "abbreviation": "D",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "gamesPlayed",
+                        "displayName": "Games Played",
+                        "shortDisplayName": "GP",
+                        "description": "Games Played",
+                        "abbreviation": "GP",
+                        "type": "gamesplayed",
+                        "value": 1,
+                        "displayValue": "1"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Goals For",
+                        "shortDisplayName": "F",
+                        "description": "Goals For",
+                        "abbreviation": "F",
+                        "type": "pointsfor",
+                        "value": 2,
+                        "displayValue": "2"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Goals Against",
+                        "shortDisplayName": "A",
+                        "description": "Goals Against",
+                        "abbreviation": "A",
+                        "type": "pointsagainst",
+                        "value": 4,
+                        "displayValue": "4"
+                    },
+                    {
+                        "name": "points",
+                        "displayName": "Points",
+                        "shortDisplayName": "P",
+                        "description": "Points",
+                        "abbreviation": "P",
+                        "type": "points",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rankChange",
+                        "displayName": "Rank Change",
+                        "shortDisplayName": "Rank Change",
+                        "description": "Rank Change",
+                        "abbreviation": "RC",
+                        "type": "rankchange",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "rank",
+                        "displayName": "Rank",
+                        "shortDisplayName": "Rank",
+                        "description": "Rank",
+                        "abbreviation": "R",
+                        "type": "rank",
+                        "value": 17,
+                        "displayValue": "17"
+                    },
+                    {
+                        "name": "pointDifferential",
+                        "displayName": "Goal Difference",
+                        "shortDisplayName": "GD",
+                        "description": "Goal Difference",
+                        "abbreviation": "GD",
+                        "type": "pointdifferential",
+                        "value": -2,
+                        "displayValue": "-2"
+                    },
+                    {
+                        "name": "deductions",
+                        "displayName": "Point Deductions",
+                        "shortDisplayName": "Deductions",
+                        "description": "Point Deductions",
+                        "abbreviation": "PD",
+                        "type": "deductions",
+                        "value": 0,
+                        "displayValue": ""
+                    },
+                    {
+                        "name": "ppg",
+                        "displayName": "Points Per Game",
+                        "shortDisplayName": "PPG",
+                        "description": "Points Per Game",
+                        "abbreviation": "PPG",
+                        "type": "ppg",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "id": "0",
+                        "name": "All Splits",
+                        "abbreviation": "Total",
+                        "displayName": "Overall",
+                        "shortDisplayName": "OVER",
+                        "description": "Overall Record",
+                        "type": "total",
+                        "summary": "0-0-1",
+                        "displayValue": "0-0-1"
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": "8841",
+                    "uid": "s:600~t:8841",
+                    "location": "Istanbulspor",
+                    "name": "Istanbulspor",
+                    "abbreviation": "IST",
+                    "displayName": "Istanbulspor",
+                    "shortDisplayName": "Istanbulspor",
+                    "isActive": true,
+                    "logos": [
+                        {
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/8841.png",
+                            "width": 500,
+                            "height": 500,
+                            "alt": "",
+                            "rel": [
+                                "full",
+                                "default"
+                            ],
+                            "lastUpdated": "2022-07-25T15:32Z"
+                        }
+                    ]
+                },
+                "note": {
+                    "color": "#FF7F84",
+                    "description": "Relegated",
                     "rank": 18
                 },
                 "stats": [
@@ -2794,8 +2799,8 @@
                         "description": "Goals For",
                         "abbreviation": "F",
                         "type": "pointsfor",
-                        "value": 1,
-                        "displayValue": "1"
+                        "value": 0,
+                        "displayValue": "0"
                     },
                     {
                         "name": "pointsAgainst",
@@ -2844,8 +2849,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": -2,
-                        "displayValue": "-2"
+                        "value": -3,
+                        "displayValue": "-3"
                     },
                     {
                         "name": "deductions",
@@ -2882,17 +2887,17 @@
             },
             {
                 "team": {
-                    "id": "371",
-                    "uid": "s:600~t:371",
-                    "location": "West Ham United",
-                    "name": "West Ham United",
-                    "abbreviation": "WHU",
-                    "displayName": "West Ham United",
-                    "shortDisplayName": "West Ham",
+                    "id": "6870",
+                    "uid": "s:600~t:6870",
+                    "location": "Kasimpasa",
+                    "name": "Kasimpasa",
+                    "abbreviation": "KAS",
+                    "displayName": "Kasimpasa",
+                    "shortDisplayName": "Kasimpasa",
                     "isActive": true,
                     "logos": [
                         {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
                             "width": 500,
                             "height": 500,
                             "alt": "",
@@ -2900,13 +2905,13 @@
                                 "full",
                                 "default"
                             ],
-                            "lastUpdated": "2019-05-08T16:07Z"
+                            "lastUpdated": "2018-09-21T18:22Z"
                         }
                     ]
                 },
                 "note": {
                     "color": "#FF7F84",
-                    "description": "Relegation",
+                    "description": "Relegated",
                     "rank": 19
                 },
                 "stats": [
@@ -2967,8 +2972,8 @@
                         "description": "Goals Against",
                         "abbreviation": "A",
                         "type": "pointsagainst",
-                        "value": 3,
-                        "displayValue": "3"
+                        "value": 10,
+                        "displayValue": "10"
                     },
                     {
                         "name": "points",
@@ -3007,171 +3012,8 @@
                         "description": "Goal Difference",
                         "abbreviation": "GD",
                         "type": "pointdifferential",
-                        "value": -3,
-                        "displayValue": "-3"
-                    },
-                    {
-                        "name": "deductions",
-                        "displayName": "Point Deductions",
-                        "shortDisplayName": "Deductions",
-                        "description": "Point Deductions",
-                        "abbreviation": "PD",
-                        "type": "deductions",
-                        "value": 0,
-                        "displayValue": ""
-                    },
-                    {
-                        "name": "ppg",
-                        "displayName": "Points Per Game",
-                        "shortDisplayName": "PPG",
-                        "description": "Points Per Game",
-                        "abbreviation": "PPG",
-                        "type": "ppg",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "id": "0",
-                        "name": "All Splits",
-                        "abbreviation": "Total",
-                        "displayName": "Overall",
-                        "shortDisplayName": "OVER",
-                        "description": "Overall Record",
-                        "type": "total",
-                        "summary": "0-0-2",
-                        "displayValue": "0-0-2"
-                    }
-                ]
-            },
-            {
-                "team": {
-                    "id": "360",
-                    "uid": "s:600~t:360",
-                    "location": "Manchester United",
-                    "name": "Manchester United",
-                    "abbreviation": "MAN",
-                    "displayName": "Manchester United",
-                    "shortDisplayName": "Man United",
-                    "isActive": true,
-                    "logos": [
-                        {
-                            "href": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-                            "width": 500,
-                            "height": 500,
-                            "alt": "",
-                            "rel": [
-                                "full",
-                                "default"
-                            ],
-                            "lastUpdated": "2019-05-08T16:07Z"
-                        }
-                    ]
-                },
-                "note": {
-                    "color": "#FF7F84",
-                    "description": "Relegation",
-                    "rank": 20
-                },
-                "stats": [
-                    {
-                        "name": "wins",
-                        "displayName": "Wins",
-                        "shortDisplayName": "W",
-                        "description": "Team's current Win-Loss record",
-                        "abbreviation": "W",
-                        "type": "wins",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "losses",
-                        "displayName": "Losses",
-                        "shortDisplayName": "L",
-                        "description": "Losses",
-                        "abbreviation": "L",
-                        "type": "losses",
-                        "value": 2,
-                        "displayValue": "2"
-                    },
-                    {
-                        "name": "ties",
-                        "displayName": "Draws",
-                        "shortDisplayName": "D",
-                        "description": "Draws",
-                        "abbreviation": "D",
-                        "type": "ties",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "gamesPlayed",
-                        "displayName": "Games Played",
-                        "shortDisplayName": "GP",
-                        "description": "Games Played",
-                        "abbreviation": "GP",
-                        "type": "gamesplayed",
-                        "value": 2,
-                        "displayValue": "2"
-                    },
-                    {
-                        "name": "pointsFor",
-                        "displayName": "Goals For",
-                        "shortDisplayName": "F",
-                        "description": "Goals For",
-                        "abbreviation": "F",
-                        "type": "pointsfor",
-                        "value": 1,
-                        "displayValue": "1"
-                    },
-                    {
-                        "name": "pointsAgainst",
-                        "displayName": "Goals Against",
-                        "shortDisplayName": "A",
-                        "description": "Goals Against",
-                        "abbreviation": "A",
-                        "type": "pointsagainst",
-                        "value": 6,
-                        "displayValue": "6"
-                    },
-                    {
-                        "name": "points",
-                        "displayName": "Points",
-                        "shortDisplayName": "P",
-                        "description": "Points",
-                        "abbreviation": "P",
-                        "type": "points",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "rankChange",
-                        "displayName": "Rank Change",
-                        "shortDisplayName": "Rank Change",
-                        "description": "Rank Change",
-                        "abbreviation": "RC",
-                        "type": "rankchange",
-                        "value": 0,
-                        "displayValue": "0"
-                    },
-                    {
-                        "name": "rank",
-                        "displayName": "Rank",
-                        "shortDisplayName": "Rank",
-                        "description": "Rank",
-                        "abbreviation": "R",
-                        "type": "rank",
-                        "value": 20,
-                        "displayValue": "20"
-                    },
-                    {
-                        "name": "pointDifferential",
-                        "displayName": "Goal Difference",
-                        "shortDisplayName": "GD",
-                        "description": "Goal Difference",
-                        "abbreviation": "GD",
-                        "type": "pointdifferential",
-                        "value": -5,
-                        "displayValue": "-5"
+                        "value": -10,
+                        "displayValue": "-10"
                     },
                     {
                         "name": "deductions",

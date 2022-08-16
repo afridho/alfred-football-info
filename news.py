@@ -12,6 +12,7 @@ import os
 from dl_logo import parent_folder_logo
 import shutil
 import time
+import check_dark_mode
 
 try:
     division = sys.argv[1] or '' # eng.1
@@ -64,6 +65,15 @@ def get_data():
     # print(json.dumps(data, indent=4))
     return data
 
+def light_dark():
+    env_dark_mode = os.environ['adaptive_dark_mode_league_icon'] or True
+    if (env_dark_mode):
+        if (check_dark_mode.check_appearance()):
+            return '_dark'
+        else:
+            return '_light'
+    else:
+         return '_light'   
 
 def news(search=None):
     
@@ -93,12 +103,12 @@ def news(search=None):
         })
     result.append({
             'title': f"Back",
-            'subtitle': f"Back to club.",
+            'subtitle': f"Back to select club.",
             'arg': f"back\n{division}\n{news['url']}",
             'valid' : True,
-            # 'icon': {
-            #     'path': (f"{parent_folder_logo}/{division}/{club_code}.png") # if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png") # check icon if empty
-            # },
+            'icon': {
+                'path': (f"{parent_folder_logo}/{division}/{division}{light_dark()}.png")
+            },
         }) 
     return result
 

@@ -174,7 +174,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E81CE2E1-9AEC-4E43-90F5-B0895F36EED0</string>
+				<string>27AED678-65BD-4013-A88E-C6034F4D1C9D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -329,7 +329,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>epl</string>
+				<string>{var:fav_keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -783,7 +783,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>cp -v src/team-icons/$club/${club}_light.png 27AED678-65BD-4013-A88E-C6034F4D1C9D.png</string>
+				<string>cp -v src/team-icons/$club/${club}_dark.png 27AED678-65BD-4013-A88E-C6034F4D1C9D.png</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1043,6 +1043,48 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>default</key>
+				<string>epl</string>
+				<key>placeholder</key>
+				<string>keyword</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Keyword for show your favorite league</string>
+			<key>label</key>
+			<string>Favorite League</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>fav_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>Manchester United</string>
+				<key>placeholder</key>
+				<string>Club Name</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Favorite club will be the top of league section</string>
+			<key>label</key>
+			<string>Favorite Club</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>club_fav_title</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>pairs</key>
 				<array>
 					<array>
@@ -1088,32 +1130,13 @@
 			<key>variable</key>
 			<string>total_article</string>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string>Manchester United</string>
-				<key>placeholder</key>
-				<string>Club Name</string>
-				<key>required</key>
-				<false/>
-				<key>trim</key>
-				<false/>
-			</dict>
-			<key>description</key>
-			<string>Favorite club will be the top of league section</string>
-			<key>label</key>
-			<string>Favorite Club</string>
-			<key>type</key>
-			<string>textfield</string>
-			<key>variable</key>
-			<string>club_fav_title</string>
-		</dict>
 	</array>
 	<key>variables</key>
 	<dict>
 		<key>adaptive_dark_mode_league_icon</key>
 		<string>True</string>
+		<key>favorite_text</key>
+		<string>============== 🄵🄰🅅🄾🅁🄸🅃🄴 🄲🄻🅄🄱 ==============</string>
 	</dict>
 	<key>version</key>
 	<string>2.2</string>

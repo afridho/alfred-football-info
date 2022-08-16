@@ -55,7 +55,9 @@ def football(search=None, division=None):
     # projects.insert(0, projects.pop(index)) if index > 0 else ' ' # add favorite club to top
 
     #general variable
-    club_fav_title = os.environ['club_fav_title']
+    club_fav_title = os.environ['club_fav_title'] or ''
+    favorite_text = os.environ['favorite_text'] or '============== 🄵🄰🅅🄾🅁🄸🅃🄴 🄲🄻🅄🄱 =============='
+    # club_fav_title = 'Manchester United'
     
     # variable to short
     sT = 'stats'
@@ -67,40 +69,45 @@ def football(search=None, division=None):
         projects = data_out['data']['standings'] if data_out['status'] else []
         index = next((i for i, item in enumerate(projects) if item['team']['displayName'] == club_fav_title), -1)
         projects.insert(0, projects.pop(index)) if index > 0 else ' ' # add favorite club to top
+        if(division == 'eng.1'):
+            projects.append({"team" : {"displayName" : f"{favorite_text}", "abbreviation" : "LINE_FAVORITE"}})
+            projects.insert(1, projects.pop(len(projects) - 1)) if index > 0 else ' '
+        
+        # print(len(projects))
+        # print(json.dumps(projects, indent=4))
+        # return
         
         for project in projects:
-            if search is not None and project['team']['displayName'].lower().find(search.lower()) == -1:
+            if search is not None and (project['team']['displayName'].lower().find(search.lower()) == -1):
                 continue
-            
             result.append({
                 'title': '{}{}'.format((project['team']['displayName']), '⭐️' if project['team']['displayName'] == club_fav_title else ''),
                 'subtitle': '{} ▸  {}{}  ||  {}{}  ||  {}{}  ||  {}{}  ||  {}{}  ||  {}{}  ||  {}{}  ||  {}'.format((get_rank_symbol(project[sT][8][oV])),'MP=', project[sT][3][dV], 'Wins=', project[sT][0][dV], 
-                                                            'Losses=', project[sT][1][dV], 'Draws=', project[sT][2][dV], 'GF=',project[sT][4][dV], 'GA=',project[sT][5][dV], 'Pts=',project[sT][6][dV], get_status_lastMatched(project[sT][9][oV])),
-                'arg': f"{division}\n{project['team']['abbreviation']}\n{project['team']['displayName'].lower().replace(' ','-')}", # (eng.1) \n (MAN) \n Manchester United
-                'valid' : True,
+                                                            'Losses=', project[sT][1][dV], 'Draws=', project[sT][2][dV], 'GF=',project[sT][4][dV], 'GA=',project[sT][5][dV], 'Pts=',project[sT][6][dV], get_status_lastMatched(project[sT][9][oV])) if 'stats' in project.keys() else '',
+                'arg': (f"{division}\n{project['team']['abbreviation']}\n{project['team']['displayName'].lower().replace(' ','-')}") if 'team' in project.keys() else '', # (eng.1) \n (MAN) \n Manchester United
+                'valid' : True if 'stats' in project.keys() else False,
                 'icon': {
-                    'path': (f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png") # check icon if empty
+                    'path': ((f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png")) if len(project['team']['abbreviation']) < 10 else f"src/empty-icon.png" # check icon if empty
                 },
                 "action": {
                     "text": project['team']['displayName'],
                 },
-                # 'quicklookurl' : 'w'
-                # 'text': {
-                #     # "copy": project['url'],
-                #     "largetype": f"{division}\n{project['team']['abbreviation']}\n{project['team']['displayName'].lower()}"
-                # },
+                'text': {
+                    "copy": (f"{project['team']['displayName']}\nPoints = {project[sT][6][dV]}") if 'team' in project.keys() and 'stats' in project.keys() else '',
+                    "largetype": (f"{project['team']['displayName']}") if 'team' in project.keys() else '',
+                },
                 'mods': {
                     'alt': {
                         'valid': True,
                         # 'arg': project['id'],
-                        'subtitle': f"Rank : {get_rank_symbol(project[sT][8][oV])}"
+                        'subtitle': (f"Rank : {get_rank_symbol(project[sT][8][oV])}") if 'stats' in project.keys() else ''
                     },
-                    # 'ctrl': {
-                    #     'valid': True,
-                    #     # add argument project finished to Dialog Conditional
-                    #     'arg': '{}:{}'.format(project['id'],project['finished']),
-                    #     'subtitle' : '{}'.format('🍿Mark Unwatched' if project['finished'] == True else '☑️Mark Watched'),
-                    # },
+                    'ctrl': {
+                        'valid': True,
+                        # add argument project finished to Dialog Conditional
+                        'arg': 'arg',
+                        'subtitle' : '',
+                    },
                     # 'cmd': {
                     #     'valid': True,
                     #     'arg': 'Season ',
@@ -108,25 +115,26 @@ def football(search=None, division=None):
                     # },
                 }
             })
-        result.append({
-                'title': f"Back",
-                'subtitle': f"Back to select leagues.",
-                'arg': 'back',
-                'valid' : True,
-                # 'icon': {
-                #     'path': (f"{parent_folder_logo}/{division}/{club_code}.png") # if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png") # check icon if empty
-                # },
-        }) 
+        if not search:
+            result.append({
+                    'title': f"Back",
+                    'subtitle': f"Back to select leagues.",
+                    'arg': 'back',
+                    'valid' : True,
+                    'icon': {
+                        'path': f"src/back-icon.png",
+                    },
+            }) 
     else:
         result.append({
                 'title': f"Back",
                 'subtitle': f"Data not found.",
                 'arg': 'back',
                 'valid' : True,
-                # 'icon': {
-                #     'path': (f"{parent_folder_logo}/{division}/{club_code}.png") # if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png") # check icon if empty
-                # },
-        })     
+                'icon': {
+                    'path': f"src/back-icon.png",
+                },
+        })
     return result
 
 """Run Script Filter."""
@@ -149,4 +157,3 @@ if __name__ == '__main__':
     # default load filter
     main()
 
-    
