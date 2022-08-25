@@ -69,7 +69,7 @@ def get_data_year(dataId=None):
             data = json.load(f)
             list1 = list ((p_id.get('data_year') for p_id in data if p_id.get('id') == dataId)) 
             return ''.join(list1)
-        
+
 # save_data("eng.1")
 # be = doCache()
 # print(be.compare_time("eng.1"))

@@ -11,10 +11,11 @@ import sys
 import os
 from datetime import datetime
 import requests
-from isCached import doCache
+from isCached import doCache, get_time_value
 from importlib import reload
 from dl_logo import parent_folder_logo
 from settings import data_settings
+from alfred_football import light_dark
 reload(sys)
 
 baseUrl = os.environ['baseUrl']
@@ -125,9 +126,21 @@ def football(search=None, division=None):
                     'icon': {
                         'path': (f"src/settings.png")
                     },
-                })     
+                })
+        if search == 'info' or search == '?' and len(search) > 0:
+            last_update_data = get_time_value(division)
+            result.append({
+                    'title': f"{last_update_data}",
+                    'subtitle': f"{('Last updated data of ' + data_out['data']['name']) if data_out['status'] else []}",
+                    'arg': (f"settings"),
+                    'valid' : True,
+                    'icon': {
+                        'path': (f"{parent_folder_logo}{division}/{division}{light_dark()}.png")  if os.path.exists(f"{parent_folder_logo}{division}/{division}{light_dark()}.png") else (f"{parent_folder_logo}/no-logo.png") # check icon if empty
+                    },
+                })          
             
         if not search:
+            last_update_data = get_time_value(division)
             result.append({
                     'title': f"Back",
                     'subtitle': f"Back to select leagues.",
@@ -136,6 +149,14 @@ def football(search=None, division=None):
                     'icon': {
                         'path': f"src/back-icon.png",
                     },
+                    'mods': {
+                    'alt': {
+                        'subtitle': f"Last updated : {last_update_data}",
+                    },
+                    'cmd': { 
+                        'subtitle': f"Last updated : {last_update_data}",
+                    },
+                }
             }) 
     else:
         result.append({
