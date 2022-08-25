@@ -1152,38 +1152,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>1</integer>
-						<key>matchstring</key>
-						<string>settings</string>
-						<key>outputlabel</key>
-						<string>run</string>
-						<key>uid</key>
-						<string>5934572A-E79E-42D4-8A90-3600C50EA40D</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>settings</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>4B597482-DB2F-4A86-866F-CFBBA913197C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>externaltriggerid</key>
 				<string>com.afridho.alfred.football.info.leagues.select</string>
 				<key>passinputasargument</key>
@@ -1217,6 +1185,38 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>9C25B6FF-24ED-45BC-A1C1-6E9269C95CB1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>settings</string>
+						<key>outputlabel</key>
+						<string>run</string>
+						<key>uid</key>
+						<string>5934572A-E79E-42D4-8A90-3600C50EA40D</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>settings</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4B597482-DB2F-4A86-866F-CFBBA913197C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2463,9 +2463,9 @@ end tell'</string>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>340</real>
+			<real>345</real>
 			<key>ypos</key>
-			<real>270</real>
+			<real>280</real>
 		</dict>
 		<key>4B8633AF-E4F9-4CE3-8569-D9AEDB7E515E</key>
 		<dict>

@@ -62,7 +62,7 @@ def scrap():
     # print(json.dumps(data, indent=4))  
     return data
 def check_time(time):
-    char_skip = ['AM', 'PM', 'FT', 'AET'] # AM PM FullTime, Added ExtraTime
+    char_skip = ['AM', 'PM', 'FT', 'AET', 'TBD'] # AM PM FullTime, Added ExtraTime
     return [True for x in char_skip if x in time]
 
 def get_win_status(team_id=None, team_home_id=None, team_away_id=None, score=None):
