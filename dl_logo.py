@@ -4,10 +4,13 @@ import requests
 requests.packages.urllib3.disable_warnings()
 from PIL import Image, UnidentifiedImageError
 import os, os.path
-# from PIL import
+from datetime import date
 
 baseUrl = 'https://api-football-standings.azharimm.site/leagues/'
 parent_folder_logo = 'src/team-icons/'
+
+range_year_end = date.today().year + 1
+
 
 def get_data_from_internet(url=None):
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'} # use user-agent to prevent from blocked
@@ -18,7 +21,7 @@ def get_data_from_internet(url=None):
 
 def get_logo(dataId=None, dataUrl=None, otherParam=None,club=True):
     if (club):
-        url_logo = f"{baseUrl}{dataId}/standings?season=2022&sort=asc"
+        url_logo = f"{baseUrl}{dataId}/standings?season={otherParam}&sort=asc"
         jsonFile = get_data_from_internet(url_logo)
         
         if 'standings' in jsonFile['data']:
@@ -87,12 +90,14 @@ def download():
     time.sleep(0.7)
     
     """Download club logo"""
-    for data in posts:
-        pathlib.Path(f"{parent_folder_logo}{data['id']}").mkdir(parents=True, exist_ok=True)
-        print(f"[Name : {data['name']}]") if 'name' in data else ''
-        print(f"Folder : {data['id']}")
-        get_logo(data["id"], None, None, True)
-        time.sleep(0.5)
+    for x in range(2021, range_year_end):
+        print(f"\n== Data Year : {x} ==\n")
+        for data in posts:
+            pathlib.Path(f"{parent_folder_logo}{data['id']}").mkdir(parents=True, exist_ok=True)
+            print(f"[{data['name']}]") if 'name' in data else ''
+            print(f"Folder : {data['id']}")
+            get_logo(data["id"], None, x, True)
+            time.sleep(0.5)
     
     print("--- Logo Updated %s seconds ---" % round((time.time() - start_time), 2))
     

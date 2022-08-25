@@ -19,13 +19,68 @@
 				<false/>
 			</dict>
 		</array>
+		<key>07080283-E4E3-4C0C-9D81-7D39E03AD180</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8D34CF15-1AA7-4AD9-AFEF-D6BA700FD4AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>949768AA-FBE6-4053-97D4-18AD46AF2584</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C5BD99AD-5C42-4544-844C-59FFC4D5A5D4</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>27AED678-65BD-4013-A88E-C6034F4D1C9D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>C77FEAA1-4EC3-4FE8-8511-4CAA5A356A37</string>
 				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>07080283-E4E3-4C0C-9D81-7D39E03AD180</string>
+				<key>modifiers</key>
 				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AE34A048-B2A1-4B54-892A-0481059804CE</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EA7932D3-1AD2-4D63-9FDD-5A1CA51E0559</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -50,6 +105,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>63F21B3C-6FC2-4B24-8B70-FE30FB4559D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5309C1FF-3315-420A-AEF4-038EA5EBB766</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A307D441-9904-4B6B-B04B-D297519EC7CA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -96,6 +164,123 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6A4C5F5E-DBD3-4897-B90C-A03CEB278D9A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EF851ECF-66DB-459D-A62B-F1BCD84AFB04</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>71144E05-21A1-4700-B1F9-19D432D01E9A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AB6F127D-0FE0-4D38-B999-64FDD8A078F5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>799F0275-5CD9-4759-A264-6C00ADBDE6B9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE3C427C-7896-4681-BF63-FC9FDE15B632</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7EBF9DDE-1ABF-4729-B856-09B78617D1C7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CBAD90D7-77B6-4015-8B7A-930CF2BFDFC9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8409D41D-652B-4E43-A7A4-FD7253A601E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8409D41D-652B-4E43-A7A4-FD7253A601E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7F47BDF0-AF1B-4FDA-A59D-539E733B88E5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>71144E05-21A1-4700-B1F9-19D432D01E9A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8181F2C2-274F-4300-8A92-111FBC29A83B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56869858-8663-49D3-9C93-9225744572E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8409D41D-652B-4E43-A7A4-FD7253A601E1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4213F275-8E12-4D2C-A121-E1BEED1C678E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>92320E2F-34E7-4E3B-ABA8-8E1C192E4FF9</key>
 		<array>
 			<dict>
@@ -111,6 +296,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>B92450DF-32EB-4202-8B50-54EEC48990F8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>949768AA-FBE6-4053-97D4-18AD46AF2584</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9BD2C05D-E8BC-4A1E-B8EB-3E0B32A30E20</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0D3AD6F8-4F2A-4AD7-8996-138ED3B90D4B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -155,6 +363,47 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A307D441-9904-4B6B-B04B-D297519EC7CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E1AC78BB-FA73-48DC-871B-16AFE3285298</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AB6F127D-0FE0-4D38-B999-64FDD8A078F5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5309C1FF-3315-420A-AEF4-038EA5EBB766</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AE34A048-B2A1-4B54-892A-0481059804CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F9C86C57-41F2-4B33-808F-A8EEBA462838</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C5BD99AD-5C42-4544-844C-59FFC4D5A5D4</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B36259F9-81E5-43C8-A528-A4BD19ED9D35</key>
 		<array>
 			<dict>
@@ -171,18 +420,7 @@
 		<key>B92450DF-32EB-4202-8B50-54EEC48990F8</key>
 		<array/>
 		<key>BCB30CD5-EA78-41C6-A8F2-7E033A8F5712</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>27AED678-65BD-4013-A88E-C6034F4D1C9D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>C77FEAA1-4EC3-4FE8-8511-4CAA5A356A37</key>
 		<array>
 			<dict>
@@ -200,6 +438,21 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>8D34CF15-1AA7-4AD9-AFEF-D6BA700FD4AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CBAD90D7-77B6-4015-8B7A-930CF2BFDFC9</key>
+		<array/>
+		<key>CE3C427C-7896-4681-BF63-FC9FDE15B632</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9CEB4F8-A07E-4CD0-B8DB-658150E9A988</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -234,11 +487,73 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E9CEB4F8-A07E-4CD0-B8DB-658150E9A988</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A4C5F5E-DBD3-4897-B90C-A03CEB278D9A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EA7932D3-1AD2-4D63-9FDD-5A1CA51E0559</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7EBF9DDE-1ABF-4729-B856-09B78617D1C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>EDA117F4-C017-4857-93D6-9C122C7B87BE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>4B8633AF-E4F9-4CE3-8569-D9AEDB7E515E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EF851ECF-66DB-459D-A62B-F1BCD84AFB04</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FB3D8529-DDF5-4B5C-B376-D162B31EF3C3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F9C86C57-41F2-4B33-808F-A8EEBA462838</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B23EF012-17A4-4DE1-801C-71EBCE93AFCE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B856E5A-64E2-4E75-8E9B-3B600BA0A56A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -387,21 +702,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>availableviaurlhandler</key>
-				<false/>
-				<key>triggerid</key>
-				<string>com.afridho.alfred.football.info.club.select</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>A28205FD-38DA-42B0-BE84-40F01CB75FFB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -445,6 +745,21 @@
 			<string>3E4EF09C-A35E-43BB-80A7-4405449C5DE7</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>com.afridho.alfred.football.info.club.select</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A28205FD-38DA-42B0-BE84-40F01CB75FFB</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -504,51 +819,22 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>1</integer>
-						<key>matchstring</key>
-						<string>back</string>
-						<key>outputlabel</key>
-						<string>process</string>
-						<key>uid</key>
-						<string>C5BD99AD-5C42-4544-844C-59FFC4D5A5D4</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>back to select league</string>
-				<key>hideelse</key>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
 				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>C77FEAA1-4EC3-4FE8-8511-4CAA5A356A37</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>com.afridho.alfred.football.info.club.select</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
 				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
+				<key>variableprefix</key>
+				<string>article</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
+			<string>alfred.workflow.utility.split</string>
 			<key>uid</key>
-			<string>A88C6A6F-9BDD-4062-9632-9B77F815F18C</string>
+			<string>EDA117F4-C017-4857-93D6-9C122C7B87BE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -577,22 +863,51 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>delimiter</key>
-				<string>
-</string>
-				<key>discardemptyarguments</key>
+				<key>externaltriggerid</key>
+				<string>com.afridho.alfred.football.info.club.select</string>
+				<key>passinputasargument</key>
 				<false/>
-				<key>outputas</key>
-				<integer>0</integer>
-				<key>trimarguments</key>
+				<key>passvariables</key>
 				<true/>
-				<key>variableprefix</key>
-				<string>article</string>
+				<key>workflowbundleid</key>
+				<string>self</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.split</string>
+			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>EDA117F4-C017-4857-93D6-9C122C7B87BE</string>
+			<string>A88C6A6F-9BDD-4062-9632-9B77F815F18C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>back</string>
+						<key>outputlabel</key>
+						<string>process</string>
+						<key>uid</key>
+						<string>C5BD99AD-5C42-4544-844C-59FFC4D5A5D4</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>back to select league</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>C77FEAA1-4EC3-4FE8-8511-4CAA5A356A37</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -747,6 +1062,647 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cp -v src/team-icons/$club/${club}_dark.png 27AED678-65BD-4013-A88E-C6034F4D1C9D.png</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>58E2AB50-5793-4238-A008-7E8A5FEDA2C1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>949768AA-FBE6-4053-97D4-18AD46AF2584</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>com.afridho.alfred.football.info.results</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>9BD2C05D-E8BC-4A1E-B8EB-3E0B32A30E20</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>back</string>
+						<key>outputlabel</key>
+						<string>process</string>
+						<key>uid</key>
+						<string>C5BD99AD-5C42-4544-844C-59FFC4D5A5D4</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>back to select league</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>07080283-E4E3-4C0C-9D81-7D39E03AD180</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>com.afridho.alfred.football.info.results</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>799F0275-5CD9-4759-A264-6C00ADBDE6B9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>com.afridho.alfred.football.info.club.select</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>FB3D8529-DDF5-4B5C-B376-D162B31EF3C3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait...</string>
+				<key>script</key>
+				<string>python3 results.py "$split1" "$split2" "$split3" "$split4" "results" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string>family_guy_chrome.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Manchester United</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E9CEB4F8-A07E-4CD0-B8DB-658150E9A988</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>0.1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>CE3C427C-7896-4681-BF63-FC9FDE15B632</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>results</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>6A4C5F5E-DBD3-4897-B90C-A03CEB278D9A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>score</key>
+					<string>{var:results2}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>EF851ECF-66DB-459D-A62B-F1BCD84AFB04</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cp -v src/team-icons/$split1/$split2.png E9CEB4F8-A07E-4CD0-B8DB-658150E9A988.png</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0D3AD6F8-4F2A-4AD7-8996-138ED3B90D4B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>back</string>
+						<key>outputlabel</key>
+						<string>process</string>
+						<key>uid</key>
+						<string>C5BD99AD-5C42-4544-844C-59FFC4D5A5D4</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>back to select league</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>AE34A048-B2A1-4B54-892A-0481059804CE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>com.afridho.alfred.football.info.results</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>B23EF012-17A4-4DE1-801C-71EBCE93AFCE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>F9C86C57-41F2-4B33-808F-A8EEBA462838</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<false/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>EA7932D3-1AD2-4D63-9FDD-5A1CA51E0559</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>com.afridho.alfred.football.info.results</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>7F47BDF0-AF1B-4FDA-A59D-539E733B88E5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait...</string>
+				<key>script</key>
+				<string>python3 results.py "$split1" "$split2" "$split3" "$split4" "fixtures" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string>family_guy_chrome.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Manchester United</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>AB6F127D-0FE0-4D38-B999-64FDD8A078F5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>com.afridho.alfred.football.info.club.select</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>E1AC78BB-FA73-48DC-871B-16AFE3285298</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Ok</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>{var:split4} {var:split1} as favorite club ?</string>
+				<key>title</key>
+				<string>{var:split4} Favorite</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>7EBF9DDE-1ABF-4729-B856-09B78617D1C7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>python3 -c "from settings import *; mark_favorite_club('$split1','$split2', '$split3')"
+touch settings.py</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CBAD90D7-77B6-4015-8B7A-930CF2BFDFC9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>score</key>
+					<string>{var:results2}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A307D441-9904-4B6B-B04B-D297519EC7CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>0.1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>71144E05-21A1-4700-B1F9-19D432D01E9A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>results</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>5309C1FF-3315-420A-AEF4-038EA5EBB766</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cp -v src/team-icons/$split1/$split2.png AB6F127D-0FE0-4D38-B999-64FDD8A078F5.png</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1B856E5A-64E2-4E75-8E9B-3B600BA0A56A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>com.afridho.alfred.football.info.club.select</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>4213F275-8E12-4D2C-A121-E1BEED1C678E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>club</key>
+					<string>{var:split3}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8409D41D-652B-4E43-A7A4-FD7253A601E1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript -e 'tell app "Terminal"
+    do script "python3 {query}/dl_logo.py"
+end tell'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>56869858-8663-49D3-9C93-9225744572E6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>echo -n "`pwd`"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8181F2C2-274F-4300-8A92-111FBC29A83B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -775,29 +1731,6 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>cp -v src/team-icons/$club/${club}_dark.png 27AED678-65BD-4013-A88E-C6034F4D1C9D.png</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>58E2AB50-5793-4238-A008-7E8A5FEDA2C1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -813,6 +1746,37 @@
 			<real>785</real>
 			<key>ypos</key>
 			<real>205</real>
+		</dict>
+		<key>07080283-E4E3-4C0C-9D81-7D39E03AD180</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>60</real>
+			<key>ypos</key>
+			<real>650</real>
+		</dict>
+		<key>0D3AD6F8-4F2A-4AD7-8996-138ED3B90D4B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>change icon to article &gt; club</string>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>825</real>
+		</dict>
+		<key>1B856E5A-64E2-4E75-8E9B-3B600BA0A56A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>change icon to article &gt; club</string>
+			<key>xpos</key>
+			<real>450</real>
+			<key>ypos</key>
+			<real>1235</real>
 		</dict>
 		<key>273F6E63-4015-407C-BA02-4454215DF94A</key>
 		<dict>
@@ -843,14 +1807,39 @@
 			<key>ypos</key>
 			<real>55</real>
 		</dict>
+		<key>4213F275-8E12-4D2C-A121-E1BEED1C678E</key>
+		<dict>
+			<key>xpos</key>
+			<real>215</real>
+			<key>ypos</key>
+			<real>1300</real>
+		</dict>
 		<key>4B8633AF-E4F9-4CE3-8569-D9AEDB7E515E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>5</integer>
 			<key>xpos</key>
-			<real>1050</real>
+			<real>1075</real>
 			<key>ypos</key>
 			<real>190</real>
+		</dict>
+		<key>5309C1FF-3315-420A-AEF4-038EA5EBB766</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>855</real>
+			<key>ypos</key>
+			<real>1145</real>
+		</dict>
+		<key>56869858-8663-49D3-9C93-9225744572E6</key>
+		<dict>
+			<key>note</key>
+			<string>run dl_logo.py scripts (Update Logo)</string>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>1460</real>
 		</dict>
 		<key>58E2AB50-5793-4238-A008-7E8A5FEDA2C1</key>
 		<dict>
@@ -881,6 +1870,67 @@
 			<key>ypos</key>
 			<real>45</real>
 		</dict>
+		<key>6A4C5F5E-DBD3-4897-B90C-A03CEB278D9A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>760</real>
+			<key>ypos</key>
+			<real>735</real>
+		</dict>
+		<key>71144E05-21A1-4700-B1F9-19D432D01E9A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>delay to let icon change</string>
+			<key>xpos</key>
+			<real>605</real>
+			<key>ypos</key>
+			<real>1145</real>
+		</dict>
+		<key>799F0275-5CD9-4759-A264-6C00ADBDE6B9</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>705</real>
+		</dict>
+		<key>7EBF9DDE-1ABF-4729-B856-09B78617D1C7</key>
+		<dict>
+			<key>xpos</key>
+			<real>110</real>
+			<key>ypos</key>
+			<real>1120</real>
+		</dict>
+		<key>7F47BDF0-AF1B-4FDA-A59D-539E733B88E5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>450</real>
+			<key>ypos</key>
+			<real>1115</real>
+		</dict>
+		<key>8181F2C2-274F-4300-8A92-111FBC29A83B</key>
+		<dict>
+			<key>note</key>
+			<string>run dl_logo.py scripts (Update Logo)</string>
+			<key>xpos</key>
+			<real>195</real>
+			<key>ypos</key>
+			<real>1460</real>
+		</dict>
+		<key>8409D41D-652B-4E43-A7A4-FD7253A601E1</key>
+		<dict>
+			<key>xpos</key>
+			<real>110</real>
+			<key>ypos</key>
+			<real>1320</real>
+		</dict>
 		<key>8D34CF15-1AA7-4AD9-AFEF-D6BA700FD4AA</key>
 		<dict>
 			<key>colorindex</key>
@@ -897,11 +1947,35 @@
 			<key>note</key>
 			<string>{var:split1} = eng.1
 {var:split2} = MAN
-{var:split3} = manchester united</string>
+{var:split3} = manchester united
+{var:split3} = 360</string>
 			<key>xpos</key>
 			<real>455</real>
 			<key>ypos</key>
 			<real>55</real>
+		</dict>
+		<key>949768AA-FBE6-4053-97D4-18AD46AF2584</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>{var:split1} = eng.1
+{var:split2} = MAN
+{var:split3} = manchester united
+{var:split4} = 360</string>
+			<key>xpos</key>
+			<real>255</real>
+			<key>ypos</key>
+			<real>520</real>
+		</dict>
+		<key>9BD2C05D-E8BC-4A1E-B8EB-3E0B32A30E20</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>405</real>
+			<key>ypos</key>
+			<real>580</real>
 		</dict>
 		<key>9C25B6FF-24ED-45BC-A1C1-6E9269C95CB1</key>
 		<dict>
@@ -921,6 +1995,15 @@
 			<key>ypos</key>
 			<real>55</real>
 		</dict>
+		<key>A307D441-9904-4B6B-B04B-D297519EC7CA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>920</real>
+			<key>ypos</key>
+			<real>1145</real>
+		</dict>
 		<key>A88C6A6F-9BDD-4062-9632-9B77F815F18C</key>
 		<dict>
 			<key>colorindex</key>
@@ -929,6 +2012,35 @@
 			<real>1230</real>
 			<key>ypos</key>
 			<real>190</real>
+		</dict>
+		<key>AB6F127D-0FE0-4D38-B999-64FDD8A078F5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Fixtures</string>
+			<key>xpos</key>
+			<real>695</real>
+			<key>ypos</key>
+			<real>1115</real>
+		</dict>
+		<key>AE34A048-B2A1-4B54-892A-0481059804CE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>110</real>
+			<key>ypos</key>
+			<real>945</real>
+		</dict>
+		<key>B23EF012-17A4-4DE1-801C-71EBCE93AFCE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>500</real>
+			<key>ypos</key>
+			<real>990</real>
 		</dict>
 		<key>B36259F9-81E5-43C8-A528-A4BD19ED9D35</key>
 		<dict>
@@ -955,16 +2067,34 @@
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>475</real>
+			<real>1465</real>
 		</dict>
 		<key>C77FEAA1-4EC3-4FE8-8511-4CAA5A356A37</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>320</real>
+			<real>365</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>190</real>
+		</dict>
+		<key>CBAD90D7-77B6-4015-8B7A-930CF2BFDFC9</key>
+		<dict>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>1130</real>
+		</dict>
+		<key>CE3C427C-7896-4681-BF63-FC9FDE15B632</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>delay to let icon change</string>
+			<key>xpos</key>
+			<real>510</real>
+			<key>ypos</key>
+			<real>735</real>
 		</dict>
 		<key>DBC7A4CC-AD85-4B42-8D33-3752F7347CAB</key>
 		<dict>
@@ -974,6 +2104,15 @@
 			<real>30</real>
 			<key>ypos</key>
 			<real>240</real>
+		</dict>
+		<key>E1AC78BB-FA73-48DC-871B-16AFE3285298</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>995</real>
+			<key>ypos</key>
+			<real>1115</real>
 		</dict>
 		<key>E7D5F794-87B7-442C-BC07-9B8EAFCEB309</key>
 		<dict>
@@ -995,14 +2134,41 @@
 			<key>ypos</key>
 			<real>345</real>
 		</dict>
+		<key>E9CEB4F8-A07E-4CD0-B8DB-658150E9A988</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Results</string>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>705</real>
+		</dict>
+		<key>EA7932D3-1AD2-4D63-9FDD-5A1CA51E0559</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>1015</real>
+		</dict>
 		<key>EDA117F4-C017-4857-93D6-9C122C7B87BE</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>5</integer>
 			<key>xpos</key>
-			<real>985</real>
+			<real>1005</real>
 			<key>ypos</key>
 			<real>190</real>
+		</dict>
+		<key>EF851ECF-66DB-459D-A62B-F1BCD84AFB04</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>825</real>
+			<key>ypos</key>
+			<real>735</real>
 		</dict>
 		<key>F47C0313-79F0-4729-B871-71629291546F</key>
 		<dict>
@@ -1012,6 +2178,29 @@
 			<real>1230</real>
 			<key>ypos</key>
 			<real>50</real>
+		</dict>
+		<key>F9C86C57-41F2-4B33-808F-A8EEBA462838</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>{var:split1} = eng.1
+{var:split2} = MAN
+{var:split3} = manchester united
+{var:split4} = 360</string>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>1000</real>
+		</dict>
+		<key>FB3D8529-DDF5-4B5C-B376-D162B31EF3C3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>900</real>
+			<key>ypos</key>
+			<real>705</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1064,23 +2253,70 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>default</key>
-				<string>Manchester United</string>
-				<key>placeholder</key>
-				<string>Club Name</string>
-				<key>required</key>
-				<false/>
-				<key>trim</key>
-				<false/>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>2022</string>
+						<string>2022</string>
+					</array>
+					<array>
+						<string>2021</string>
+						<string>2021</string>
+					</array>
+					<array>
+						<string>2020</string>
+						<string>2020</string>
+					</array>
+					<array>
+						<string>2019</string>
+						<string>2019</string>
+					</array>
+					<array>
+						<string>2018</string>
+						<string>2018</string>
+					</array>
+					<array>
+						<string>2017</string>
+						<string>2017</string>
+					</array>
+					<array>
+						<string>2016</string>
+						<string>2016</string>
+					</array>
+					<array>
+						<string>2015</string>
+						<string>2015</string>
+					</array>
+					<array>
+						<string>2014</string>
+						<string>2014</string>
+					</array>
+					<array>
+						<string>2013</string>
+						<string>2013</string>
+					</array>
+					<array>
+						<string>2012</string>
+						<string>2012</string>
+					</array>
+					<array>
+						<string>2011</string>
+						<string>2011</string>
+					</array>
+					<array>
+						<string>2010</string>
+						<string>2010</string>
+					</array>
+				</array>
 			</dict>
 			<key>description</key>
-			<string>Favorite club will be the top of league section</string>
+			<string>Select data years to view (standings and articles).</string>
 			<key>label</key>
-			<string>Favorite Club</string>
+			<string>Data Year</string>
 			<key>type</key>
-			<string>textfield</string>
+			<string>popupbutton</string>
 			<key>variable</key>
-			<string>club_fav_title</string>
+			<string>data_year</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1135,6 +2371,10 @@
 	<dict>
 		<key>adaptive_dark_mode_league_icon</key>
 		<string>True</string>
+		<key>baseNewsUrl</key>
+		<string>https://www.detik.com</string>
+		<key>baseUrl</key>
+		<string>https://api-football-standings.azharimm.site/leagues</string>
 		<key>favorite_text</key>
 		<string>============== 🄵🄰🅅🄾🅁🄸🅃🄴 🄲🄻🅄🄱 ==============</string>
 	</dict>

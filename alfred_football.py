@@ -127,13 +127,11 @@ def main():
     print(data)
     
 
- 
 def data_object():
     fileJson = f"Cache/leagues.json"
     f = open(fileJson)
     posts = json.load(f)
     return posts
-
 
 
 if __name__ == '__main__':

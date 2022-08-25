@@ -1,0 +1,74 @@
+[
+    {
+        "index": 1,
+        "date": "Sat, Aug 20",
+        "team_home": "AFC Bournemouth",
+        "team_away": "Arsenal",
+        "score": "0 - 3",
+        "time": "83",
+        "competition": "English Premier League"
+    },
+    {
+        "index": 2,
+        "date": "Sat, Aug 13",
+        "team_home": "Arsenal",
+        "team_away": "Leicester City",
+        "score": "4 - 2",
+        "time": "8:30 AM",
+        "competition": "English Premier League"
+    },
+    {
+        "index": 3,
+        "date": "Fri, Aug 5",
+        "team_home": "Crystal Palace",
+        "team_away": "Arsenal",
+        "score": "0 - 2",
+        "time": "FT",
+        "competition": "English Premier League"
+    },
+    {
+        "index": 4,
+        "date": "Sat, Jul 30",
+        "team_home": "Arsenal",
+        "team_away": "Sevilla",
+        "score": "6 - 0",
+        "time": "FT",
+        "competition": "Emirates Cup"
+    },
+    {
+        "index": 5,
+        "date": "Sat, Jul 23",
+        "team_home": "Arsenal",
+        "team_away": "Chelsea",
+        "score": "4 - 0",
+        "time": "FT",
+        "competition": "Club Friendly"
+    },
+    {
+        "index": 6,
+        "date": "Wed, Jul 20",
+        "team_home": "Orlando City SC",
+        "team_away": "Arsenal",
+        "score": "1 - 3",
+        "time": "FT",
+        "competition": "Club Friendly"
+    },
+    {
+        "index": 7,
+        "date": "Sat, Jul 16",
+        "team_home": "Arsenal",
+        "team_away": "Everton",
+        "score": "2 - 0",
+        "time": "FT",
+        "competition": "Club Friendly"
+    },
+    {
+        "index": 8,
+        "date": "Fri, Jul 8",
+        "team_home": "Nurnberg",
+        "team_away": "Arsenal",
+        "score": "3 - 5",
+        "time": "FT",
+        "competition": "Club Friendly"
+    }
+]

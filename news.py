@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function, absolute_import
-from operator import index
 import requests
 from bs4 import BeautifulSoup
 import sys
@@ -11,8 +10,8 @@ import json
 import os
 from dl_logo import parent_folder_logo
 import shutil
-import time
 import check_dark_mode
+import unicodedata
 
 try:
     division = sys.argv[1] or '' # eng.1
@@ -22,7 +21,7 @@ except:
     raise Exception('No query found')
 
 # environment and variables
-baseUrl = 'https://www.detik.com/tag/'
+baseUrl = f"{os.environ['baseNewsUrl']}/tag/"
 totalArticle = os.environ['total_article'] or 10
 
 def icon_alfred():
@@ -32,7 +31,7 @@ def total_articles():
     return (int(totalArticle) // 10) + 1 
 
 def web_url(pageNumber=None): 
-    url = f"{baseUrl}{news_tag}/?sortby=time&page={pageNumber}"
+    url = f"{baseUrl}{parse_text(news_tag)}/?sortby=time&page={pageNumber}"
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'} # use user-agent to prevent from blocked
     page = requests.get(url, headers=headers, verify=False)
     return page.content
@@ -45,7 +44,6 @@ def get_data():
         soup = BeautifulSoup(web_url(pageNum), "html.parser")
         # print(web_url(pageNum))
         for dl in soup.findAll("article"):
-            
             for dd in dl.findAll("a", href=True):
                 url = dd['href']
             for dt in dl.findAll("h2", {"class" : "title"}):
@@ -53,17 +51,23 @@ def get_data():
             for do in dl.findAll("span", {"class": "date"}):
                 soup.find('span', {'class': 'category'}).decompose() # ignore category class inside this date class
                 date = do.text.strip()
+            for de in dl.findAll("p"):
+                desc = de.text.strip()
             index_number += 1    
             obj = {
             "index" : index_number,
             "url": url,
             "title": title,
+            "desc" : desc,
             "date" : date,
             }
             data.append(obj)
         
     # print(json.dumps(data, indent=4))
     return data
+
+def parse_text(text):
+    return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
 
 def light_dark():
     env_dark_mode = os.environ['adaptive_dark_mode_league_icon'] or True
@@ -76,14 +80,12 @@ def light_dark():
          return '_light'   
 
 def news(search=None):
-    
     news_data = get_data()
     result = []
     
     for news in news_data:
         if search is not None and news['title'].lower().find(search.lower()) == -1:
             continue
-        
         result.append({
             'title': f"{news['title']}",
             'subtitle': f"#{news['index']} ▸ {news['date']}",
@@ -98,13 +100,20 @@ def news(search=None):
             'quicklookurl' : news['url'],
             'text': {
                 "copy": news['url'],
-                "largetype": news['title']
+                "largetype": f"{news['title']}\n\n/desc/\n{news['desc']}"
             },
+            'mods': {
+                    'alt': {
+                        'valid': True,
+                        # 'arg': project['id'],
+                        'subtitle': f"{news['desc']}"
+                    },
+            }
         })
     result.append({
             'title': f"Back",
             'subtitle': f"Back to select club.",
-            'arg': f"back\n{division}\n{news['url']}",
+            'arg': (f"back\n{division}"),
             'valid' : True,
             'icon': {
                 'path': (f"{parent_folder_logo}/{division}/{division}{light_dark()}.png")
@@ -113,8 +122,6 @@ def news(search=None):
     return result
 
 def main():
-    # icon_alfred()
-    # time.sleep(3)
     SEARCH = sys.argv[4] if len(sys.argv) >= 5 else None
     posts  = news(search=SEARCH)
     data = json.dumps({ "items": posts }, indent=4)
