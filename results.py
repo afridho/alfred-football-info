@@ -8,7 +8,7 @@ from dl_logo import parent_folder_logo
 from news import light_dark
 reload(sys)
 
-baseUrl = 'https://www.espn.com/soccer/team/results/_/id/'
+baseUrl = 'https://www.espn.com/soccer/team/'
 # baseUrl = 'https://www.espn.com/soccer/team/fixtures/_/id/148/ned.psv'
 # baseUrl = 'https://www.espn.com/soccer/team/results/_/id/359/arsenal'
 
@@ -17,14 +17,14 @@ try:
     club_code = sys.argv[2] or '' # MAN
     club_name = sys.argv[3] or '' # manchester-united
     club_id = sys.argv[4] or '' # 360
-    param = sys.argv[5] or 'results' # for param results or fixtures
+    param = sys.argv[5] or '' # for param results or fixtures
 except:
     raise Exception('No query found')
 
 
 def web_url(): 
     # url = f"{baseUrl}"
-    url = f"{baseUrl}{club_id}/{club_name}"
+    url = f"{baseUrl}{param}/_/id/{club_id}/{club_name}"
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'} # use user-agent to prevent from blocked
     page = requests.get(url, headers=headers, verify=False)
     return page.content
@@ -128,8 +128,8 @@ def football(search=None):
             continue
         result.append({
             'title': f"{'▸  ' if project['index'] == 1 else ''}{project['team_home']} {project['score']} {project['team_away']}{'  ◂' if project['index'] == 1 else ''} {'' if check_time(project['time']) else ' ⏳️' + project['time']}",
-            'subtitle': f"🕰️ {project['date']} ▸  {project['time']+'  ||  ' if check_time(project['time']) else (project['time'] + '  ||  'if check_time(project['time']) else '')}{project['competition']}{('  ||  ' +get_win_status(club_id, project['team_home_id'], project['team_away_id'], project['score'])) if project['time'] != 'v' else ''}",
-            # 'subtitle' : f"{get_win_status(club_id, project['team_home_id'], project['team_away_id'], project['score'])}",
+            'subtitle': f"🕰️ {project['date']} ▸  {project['time']+'  ||  ' if check_time(project['time']) else (project['time'] + '  ||  'if check_time(project['time']) else '')}{project['competition']}{('  ||  ' +get_win_status(club_id, project['team_home_id'], project['team_away_id'], project['score'])) if project['score'] != 'v' else ''}",
+            # 'subtitle' : f"{project['score']}",
             'valid' : False,
             # 'icon': {
             #     'path': ((f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png")) if len(project['team']['abbreviation']) < 10 else f"src/empty-icon.png" # check icon if empty

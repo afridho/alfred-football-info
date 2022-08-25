@@ -100,7 +100,8 @@ def football(search=None, division=None):
                     'alt': {
                         'valid': True,
                         'arg': (f"{division}\n{project['team']['abbreviation']}\n{project['team']['displayName'].lower().replace(' ','-')}\n{project['team']['id']}") if 'team' in project.keys() else '', # (eng.1) \n (MAN) \n Manchester United \n 360
-                        'subtitle': f"🏛️ Get Fixtures Table of {project['team']['displayName']}"
+                        'subtitle': f"🏛️ Get Fixtures Table of {project['team']['displayName']}",
+                        'variables': {"pickClub": project['team']['displayName']}
                     },
                     'ctrl': {
                         'valid': True,

@@ -1643,7 +1643,7 @@
 			<key>config</key>
 			<dict>
 				<key>externaltriggerid</key>
-				<string>com.afridho.alfred.football.info.results</string>
+				<string>com.afridho.alfred.football.info.fixtures</string>
 				<key>passinputasargument</key>
 				<false/>
 				<key>passvariables</key>
@@ -1736,7 +1736,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Manchester United</string>
+				<string>{var:pickClub}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -1774,7 +1774,7 @@
 				<key>availableviaurlhandler</key>
 				<false/>
 				<key>triggerid</key>
-				<string>com.afridho.alfred.football.info.results</string>
+				<string>com.afridho.alfred.football.info.fixtures</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2903,9 +2903,9 @@ end tell'</string>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<real>50</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>1075</real>
+			<real>1015</real>
 		</dict>
 		<key>EDA117F4-C017-4857-93D6-9C122C7B87BE</key>
 		<dict>
