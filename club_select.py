@@ -88,6 +88,7 @@ def football(search=None, division=None):
                 'icon': {
                     'path': ((f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png")) if len(project['team']['abbreviation']) < 10 else f"src/empty-icon.png" # check icon if empty
                 },
+                "variables": {"pickClub": project['team']['displayName']},
                 "action": {
                     "text": project['team']['displayName'],
                 },

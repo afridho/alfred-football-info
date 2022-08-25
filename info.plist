@@ -1463,7 +1463,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Manchester United</string>
+				<string>{var:pickClub}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -2384,6 +2384,8 @@ end tell'</string>
 		</dict>
 		<key>13A9C900-58C4-4C64-B38B-AB30DE84A1A9</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
 			<key>xpos</key>
 			<real>1465</real>
 			<key>ypos</key>
@@ -2507,6 +2509,8 @@ end tell'</string>
 		</dict>
 		<key>5EC40F4B-9E3F-4D77-8B1C-AAFA0B20B3C1</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
 			<key>xpos</key>
 			<real>1380</real>
 			<key>ypos</key>
@@ -2784,6 +2788,8 @@ end tell'</string>
 		</dict>
 		<key>BB170D7F-E742-4425-84B5-AC7DC047EE87</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
 			<key>xpos</key>
 			<real>1220</real>
 			<key>ypos</key>
@@ -2827,10 +2833,12 @@ end tell'</string>
 		</dict>
 		<key>D701B60B-4D02-4C90-B49A-730167EDDCE4</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
 			<key>xpos</key>
-			<real>45</real>
+			<real>95</real>
 			<key>ypos</key>
-			<real>800</real>
+			<real>805</real>
 		</dict>
 		<key>DA9BBF81-FC7F-4C48-8522-5CCDCF9CB458</key>
 		<dict>
