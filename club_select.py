@@ -3,7 +3,7 @@
 #
 # Copyright (c) 2022 Ridho Zega
 #
-# MIT Licence. See http://opensource.org/licenses/MIT
+# MIT License. See http://opensource.org/licenses/MIT
 #
 from __future__ import division, print_function, absolute_import
 import json

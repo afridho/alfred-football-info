@@ -3,7 +3,7 @@
 #
 # Copyright (c) 2022 Ridho Zega
 #
-# MIT Licence. See http://opensource.org/licenses/MIT
+# MIT License. See http://opensource.org/licenses/MIT
 #
 from __future__ import division, print_function, absolute_import
 import json
@@ -22,7 +22,7 @@ def get_data_options():
         {
             "id" : 1,
             "option_name" : "Change Cache Time",
-            "desc" : "Set Cache time to refresh again (in hour)",
+            "desc" : "Set Cache time (in hour) to refresh again.",
             "info" : cache_time_display
         },
         {
@@ -49,7 +49,7 @@ def settings(search=None):
             continue
         result.append({
             'title': f"{data['option_name']}",
-            'subtitle': f"{data['desc']}",
+            'subtitle': f"{data['desc']} {('Current : '+str(data['info'])+' hours') if data['info'] != '' else ''}",
             'arg' : f"{data['id']}",
             'valid' : True,
             'variables': {"cacheTime": data['info']},
@@ -57,27 +57,6 @@ def settings(search=None):
                 'path': f"src/settings.png"
             },
             })
-        
-    # if not search:
-    #     result.append({
-    #             'title': f"Back",
-    #             'subtitle': f"Back to select leagues.",
-    #             'arg': 'back',
-    #             'valid' : True,
-    #             'icon': {
-    #                 'path': f"src/back-icon.png",
-    #             },
-    #     }) 
-    # else:
-    #     result.append({
-    #             'title': f"Back",
-    #             'subtitle': f"Data not found.",
-    #             'arg': 'back',
-    #             'valid' : True,
-    #             'icon': {
-    #                 'path': f"src/back-icon.png",
-    #             },
-    #     })
     return result
 
 
@@ -90,12 +69,5 @@ def main():
     data = json.dumps({ "items": posts }, indent=4)
     print(data)
 
-# def data_object(division=None):
-#     fileJson = f"Cache/{division}.json"
-#     f = open(fileJson)
-#     posts = json.load(f)
-#     return posts
-
 if __name__ == '__main__':
-    # default load filter
     main()
