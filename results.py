@@ -1,3 +1,4 @@
+from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -33,6 +34,7 @@ def scrap():
     soup = BeautifulSoup(web_url(), "html.parser")
     data = []
     index = 0
+    main_domain = '{uri.scheme}://{uri.netloc}'.format(uri=urlparse(baseUrl)) # get https://www.espn.com
     for dl in soup.findAll("tbody", {"class" : "Table__TBODY"}):
         for dd in dl.findAll("tr", {"class" : "Table__TR"}):
             dt = dd.findAll('td')
@@ -44,6 +46,7 @@ def scrap():
                 team_away = dt[3].text.strip()
                 team_away_id = (db[3]['href']).rsplit('/', 2)[1]
                 score = dt[2].text.strip()
+                match_url = db[2]['href']
                 time = dt[4].text.strip()
                 competition = dt[5].text.strip()
                 index += 1
@@ -55,7 +58,8 @@ def scrap():
                     "team_away" : team_away,
                     "team_away_id" : team_away_id,
                     "score" : score,
-                    "time" : time,
+                    "time" : time, # time is different because using bs4 not local machine
+                    "match_url" : f"{main_domain}{match_url}",
                     "competition" : competition
                     }
             data.append(obj)
@@ -130,10 +134,12 @@ def football(search=None):
             'title': f"{'▸  ' if project['index'] == 1 else ''}{project['team_home']} {project['score']} {project['team_away']}{'  ◂' if project['index'] == 1 else ''} {'' if check_time(project['time']) else ' ⏳️' + project['time']}",
             'subtitle': f"🕰️ {project['date']} ▸  {project['time']+'  ||  ' if check_time(project['time']) else (project['time'] + '  ||  'if check_time(project['time']) else '')}{project['competition']}{('  ||  ' +get_win_status(club_id, project['team_home_id'], project['team_away_id'], project['score'])) if project['score'] != 'v' else ''}",
             # 'subtitle' : f"{project['score']}",
-            'valid' : False,
+            'arg' : project['match_url'],
+            'valid' : True,
             # 'icon': {
             #     'path': ((f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") if os.path.exists(f"{parent_folder_logo}{division}/{project['team']['abbreviation']}.png") else (f"{parent_folder_logo}/no-logo.png")) if len(project['team']['abbreviation']) < 10 else f"src/empty-icon.png" # check icon if empty
             # },
+            'quicklookurl' : project['match_url'],
             'mods':{
                 'alt':{
                     'subtitle' : 'FT = Full Time   ||   AET = Added Extra Time   ||   H = Home   ||   A = Away'
