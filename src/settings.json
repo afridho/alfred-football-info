@@ -1,5 +1,6 @@
 {
     "favorite_club": "Manchester United",
     "favorite_club_id": "360",
-    "favorite_club_league_code": "eng.1"
+    "favorite_club_league_code": "eng.1",
+    "cache_time_hours": 8
 }

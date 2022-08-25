@@ -115,6 +115,17 @@ def football(search=None, division=None):
                 # },
             }
         })
+    if search == 'set' or search == '!' and len(search) > 0:
+            result.append({
+                    'title': f"Settings",
+                    'subtitle': f"Football Info Configuration",
+                    'arg': (f"settings"),
+                    'valid' : True,
+                    'icon': {
+                        'path': (f"src/settings.png")
+                    },
+                })     
+            
         
     return result
 

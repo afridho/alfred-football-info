@@ -22,3 +22,12 @@ def mark_favorite_club(clubName=None, clubId=None, division=None):
     with open(fileJson, 'w') as f:
         f.write(json.dumps(my_list, separators=(',',': '), indent=4))
     return  
+
+def cache_time(hours=None):
+    with open(fileJson, 'r') as f:
+                my_list = json.load(f)
+                my_list['cache_time_hours'] = hours
+
+    with open(fileJson, 'w') as f:
+        f.write(json.dumps(my_list, separators=(',',': '), indent=4))
+    return  

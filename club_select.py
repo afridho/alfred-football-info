@@ -39,13 +39,15 @@ def get_rank_symbol(rank=None):
 
 
 def football(search=None, division=None):
+    settings_file = data_settings()
+    cache_time = settings_file['cache_time_hours'] or ''
+    
     be = doCache()
-    if (be.compare_time(division, 8)):
+    if (be.compare_time(division, cache_time)):
         data_out = get_data_json(division) # get from internet
     else:
         data_out = data_object(division) # get from cache file
     
-    settings_file = data_settings()
     # projects = data_out['data']['standings'] if data_out['status'] else []
     # index = next((i for i, item in enumerate(projects) if item['team']['displayName'] == 'Everton'), -1)
     
@@ -112,6 +114,17 @@ def football(search=None, division=None):
                     },
                 }
             })
+        if search == 'set' or search == '!' and len(search) > 0:
+            result.append({
+                    'title': f"Settings",
+                    'subtitle': f"Football Info Configuration",
+                    'arg': (f"settings"),
+                    'valid' : True,
+                    'icon': {
+                        'path': (f"src/settings.png")
+                    },
+                })     
+            
         if not search:
             result.append({
                     'title': f"Back",

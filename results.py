@@ -144,15 +144,16 @@ def football(search=None):
             }
             
         })
-    result.append({
-            'title': f"Back",
-            'subtitle': f"Back to select club.",
-            'arg': (f"back\n{division}"),
-            'valid' : True,
-            'icon': {
-                'path': (f"{parent_folder_logo}/{division}/{division}{light_dark()}.png")
-            },
-        }) 
+    if not search:
+        result.append({
+                'title': f"Back",
+                'subtitle': f"Back to select club.",
+                'arg': (f"back\n{division}"),
+                'valid' : True,
+                'icon': {
+                    'path': (f"{parent_folder_logo}/{division}/{division}{light_dark()}.png")
+                },
+            }) 
     return result
     
 def main():
